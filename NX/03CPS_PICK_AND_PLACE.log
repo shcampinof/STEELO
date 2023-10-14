@@ -1,0 +1,561 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V1899
+! INFO-      
+! INFO-     Start of Translation: 11-OCT-2023  3:36:17 PM
+! INFO-      
+! STATUS-   Converting Part: D:\Downloads\03CPS_PICK_AND_PLACE.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      This file contains a STEP AP42 implementation
+! SUMMARY-  Description      as created by ZW3D STEP Interface translator.
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        03CPS_PICK_AND_PLACE.stp
+! SUMMARY-  Date             20 5 4.152533
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     ZWCAD Software Co.
+! SUMMARY-  Pre_Version      Version 1.0
+! SUMMARY-  Orig_System      ZW3D to STEP translator
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   4496
+! SUMMARY-  application_context ........................................:     97
+! SUMMARY-  axis2_placement_3d .........................................:    194
+! SUMMARY-  b_spline_curve_with_knots ..................................:   9574
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:   2739
+! SUMMARY-  b_spline_surface_with_knots ................................:   2799
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:   1697
+! SUMMARY-  brep_with_voids ............................................:      2
+! SUMMARY-  cartesian_point ............................................: 373950
+! SUMMARY-  closed_shell ...............................................:     80
+! SUMMARY-  context_dependent_shape_representation .....................:     73
+! SUMMARY-  direction ..................................................:    388
+! SUMMARY-  edge_curve .................................................:  12313
+! SUMMARY-  edge_loop ..................................................:   5002
+! SUMMARY-  face_bound .................................................:    506
+! SUMMARY-  face_outer_bound ...........................................:   4496
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:      1
+! SUMMARY-  item_defined_transformation ................................:     73
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  manifold_solid_brep ........................................:     74
+! SUMMARY-  next_assembly_usage_occurrence .............................:     73
+! SUMMARY-  oriented_closed_shell ......................................:      4
+! SUMMARY-  oriented_edge ..............................................:  24626
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:     49
+! SUMMARY-  product_context ............................................:     49
+! SUMMARY-  product_definition .........................................:     49
+! SUMMARY-  product_definition_context .................................:     49
+! SUMMARY-  product_definition_formation_with_specified_source .........:     49
+! SUMMARY-  product_definition_shape ...................................:    122
+! SUMMARY-  product_related_product_category ...........................:     49
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     73
+! SUMMARY-  shape_representation .......................................:     48
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  uncertainty_measure_with_unit ..............................:      1
+! SUMMARY-  vertex_point ...............................................:   8069
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         451867
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 11-OCT-2023 3:36:23 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:14 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Ready Salted Solid
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:17 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Corrugated Box_Scalable
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:17 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part8_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:17 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part7_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:17 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part9_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:17 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part12_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:17 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part6_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:17 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part11_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:18 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part13_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:18 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part10_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:18 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part3_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:18 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part4_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:18 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part2_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:18 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Part1_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:18 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\LJ12A3-4-Z_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    11
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             11
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:19 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Ãàéêà Ì12
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:19 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Øàéáà
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:19 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0004-DRIVE PULLEY_Default_As Machined_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:19 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0008-MOTOR SHAFT
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:20 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0001-BELT CONVEYOR BASE FRAME_Default_As Machined_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:20 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0013-CONVEYOR LEVEL ADJUSTER
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:20 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0005-IDLEAR PULLEY_Default_As Machined_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:20 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0011-MOTOR MOUNT
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:20 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0015-TIMING PULLY COVER
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:20 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0010-CONVEYOR LEG FRAME_Default_As Machined_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     9
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              9
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:21 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0002-IDLER BEARING MOUNT
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:21 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\CHIORINO 2M12 U0-V10A
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:21 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0012-LEVELING PAD MOUNT
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:21 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0009-PROFILE TIE ROD
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:22 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\MISUMI-STANDARD LEVELING PAD-NFJN8-100
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:22 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0007-CONVEYOR BELT SUPPORT PLATE
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:22 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\C3
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:22 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\C5
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:22 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\C4
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:22 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\C1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:22 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\C2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:22 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0006-TENSTIONER BLOCK
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:22 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0014-T5 TIMING PULLY 22TEETH 15WIDTH
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:23 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\ORIENTAL MOTOR-SINGLE PHASE GEARED MOTOR-A1509
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:23 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-0003-DRIVE BEARING MOUNT
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:23 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Cartesian_Robot_ARM_Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:23 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Cartesian_Robot_ARM_Y
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:23 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Cartesian_Robot_ARM_X
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:23 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\Cartesian_Robot_ARM_Frame
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     7
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              7
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:23 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\LJ12A3-4-Z
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     5
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              6
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:23 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\SKF BEARING-6002
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:23 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\A-A001-CONVEYOR ASSEMBLY
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    35
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             35
+! STATUS-   Creating the UG part (Phase 3 of 3): 11-OCT-2023  3:37:24 PM
+! INFO-     Filing Part ..: C:\Users\Santiago Suárez\Documents\GitHub\STEELO\NX\03CPS_PICK_AND_PLACE.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    12
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             12
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        76
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        76
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 11-OCT-2023  3:37:24 PM
+! INFO-      
