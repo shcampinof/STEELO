@@ -5,4 +5,21 @@ Custom Css
 
 .logo {
 width:  50%;
-  }
+
+}
+
+.bordeimg {
+
+border-radius:22px;
+border: 3px solid green; 
+margin-bottom: 1rem;
+
+}
+
+.borde-redondo{
+    border-radius: 10%;
+}
+
+.justificado{
+    text-align: justify!important;
+}
