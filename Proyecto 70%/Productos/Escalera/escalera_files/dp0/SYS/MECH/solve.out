@@ -1,0 +1,668 @@
+
+ ANSYS Mechanical Enterprise                       
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *            ANSYS 2020 R2          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2020 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2020 R2 
+     
+ Point Releases and Patches installed:   
+     
+ ANSYS, Inc. Products 2020 R2
+ SpaceClaim 2020 R2  
+ Discovery 2020 R2   
+ AIM 2020 R2 
+ Live (includes SpaceClaim) 2020 R2  
+ ANSYS Sherlock 2020 R2  
+ Autodyn 2020 R2 
+ LS-DYNA 2020 R2 
+ CFX (includes CFD-Post) 2020 R2 
+ Chemkin 2020 R2 
+ EnSight 2020 R2 
+ FENSAP-ICE 2020 R2  
+ Fluent (includes CFD-Post) 2020 R2  
+ Forte (includes EnSight) 2020 R2
+ Polyflow (includes CFD-Post) 2020 R2
+ TurboGrid 2020 R2   
+ ICEM CFD 2020 R2
+ Aqwa 2020 R2
+ SPEOS 2020 R2   
+ Mechanical Products 2020 R2 
+ Additive 2020 R2
+ Icepak (includes CFD-Post) 2020 R2  
+ ACIS Geometry Interface 2020 R2 
+ AutoCAD Geometry Interface 2020 R2  
+ Catia, Version 4 Geometry Interface 2020 R2 
+ Catia, Version 5 Geometry Interface 2020 R2 
+ Catia, Version 6 Geometry Interface 2020 R2 
+ Creo Elements/Direct Modeling Geometry Interface 2020 R2
+ Creo Parametric Geometry Interface 2020 R2  
+ Inventor Geometry Interface 2020 R2 
+ JTOpen Geometry Interface 2020 R2   
+ NX Geometry Interface 2020 R2   
+ Parasolid Geometry Interface  2020 R2   
+ Solid Edge Geometry Interface 2020 R2   
+ SOLIDWORKS Geometry Interface 2020 R2   
+ ANSYS, Inc. License Manager 2020 R2 
+
+
+          *****  ANSYS COMMAND LINE ARGUMENTS  *****
+  BATCH MODE REQUESTED (-b)    = NOLIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       6 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     6 CORES REQUESTED
+  INPUT FILE NAME              = C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\_ProjectScratch\Scr9044\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\_ProjectScratch\Scr9044\solve.out
+  START-UP FILE MODE           = NOREAD
+  STOP FILE MODE               = NOREAD
+
+ RELEASE= 2020 R2              BUILD= 20.2      UP20200601   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  16:37:21  AUG 26, 2023 CP=      0.484
+
+
+ PARAMETER _DS_PROGRESS =     999.0000000    
+
+ /INPUT FILE= ds.dat  LINE=       0
+
+
+
+ *** NOTE ***                            CP =       0.672   TIME= 16:37:22
+ The /CONFIG,NOELDB command is not valid in a Distributed ANSYS          
+ solution.  Command is ignored.                                          
+
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.6227778    
+
+ TITLE= 
+ escalera--Static Structural (A5)                                              
+
+
+ SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\_ProjectScratch\Scr9044\
+
+ SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\escalera_files\dp0\SYS\MECH\
+
+ SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_USERFILES_DIR(1) = C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\escalera_files\user_files\
+ --- Data in consistent MKS units. See Solving Units in the help system for more
+
+ MKS UNITS SPECIFIED FOR INTERNAL    
+  LENGTH        (l)  = METER (M)
+  MASS          (M)  = KILOGRAM (KG)
+  TIME          (t)  = SECOND (SEC)
+  TEMPERATURE   (T)  = CELSIUS (C)
+  TOFFSET            = 273.0
+  CHARGE        (Q)  = COULOMB
+  FORCE         (f)  = NEWTON (N) (KG-M/SEC2)
+  HEAT               = JOULE (N-M)
+
+  PRESSURE           = PASCAL (NEWTON/M**2)
+  ENERGY        (W)  = JOULE (N-M)
+  POWER         (P)  = WATT (N-M/SEC)
+  CURRENT       (i)  = AMPERE (COULOMBS/SEC)
+  CAPACITANCE   (C)  = FARAD
+  INDUCTANCE    (L)  = HENRY
+  MAGNETIC FLUX      = WEBER
+  RESISTANCE    (R)  = OHM
+  ELECTRIC POTENTIAL = VOLT
+
+ INPUT  UNITS ARE ALSO SET TO MKS 
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2020 R2          20.2     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 20120530  VERSION=WINDOWS x64   16:37:22  AUG 26, 2023 CP=      0.672
+
+ escalera--Static Structural (A5)                                              
+
+
+
+          ***** ANSYS ANALYSIS DEFINITION (PREP7) *****
+ *********** Nodes for the whole assembly ***********
+ *********** Elements for Body 1 "Midsurface - Cuerpo1\Midsurface1" ***********
+ *********** Send User Defined Coordinate System(s) ***********
+ *********** Set Reference Temperature ***********
+ *********** Send Materials ***********
+ *********** Send Sheet Properties ***********
+ *********** Fixed Supports ***********
+ ******* Constant Zero Displacement Z *******
+ *********** Define Force Using Surface Effect Elements ***********
+
+
+ ***** ROUTINE COMPLETED *****  CP =         1.141
+
+
+ --- Number of total nodes = 15958
+ --- Number of contact elements = 3681
+ --- Number of spring elements = 0
+ --- Number of bearing elements = 0
+ --- Number of solid elements = 15864
+ --- Number of condensed parts = 0
+ --- Number of total elements = 19545
+
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.6227778    
+ ****************************************************************************
+ *************************    SOLUTION       ********************************
+ ****************************************************************************
+
+ *****  ANSYS SOLUTION ROUTINE  *****
+
+
+ PERFORM A STATIC ANALYSIS
+  THIS WILL BE A NEW ANALYSIS
+
+ PARAMETER _THICKRATIO =     0.000000000    
+
+ USE SPARSE MATRIX DIRECT SOLVER
+
+ CONTACT INFORMATION PRINTOUT LEVEL       1
+
+ DO NOT COMBINE ELEMENT MATRIX FILES (.emat) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ DO NOT COMBINE ELEMENT SAVE DATA FILES (.esav) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ NLDIAG: Nonlinear diagnostics CONT option is set to ON. 
+         Writing frequency : each ITERATION.
+
+ DO NOT SAVE ANY RESTART FILES AT ALL
+ ****************************************************
+ ******************* SOLVE FOR LS 1 OF 1 ****************
+
+ SELECT       FOR ITEM=TYPE COMPONENT=    
+  IN RANGE         2 TO          2 STEP          1
+
+       3681  ELEMENTS (OF      19545  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ SELECT      ALL NODES HAVING ANY ELEMENT IN ELEMENT SET.
+
+       3924 NODES (OF      15958  DEFINED) SELECTED FROM
+     3681 SELECTED ELEMENTS BY NSLE COMMAND.
+
+ SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  1   KVAL = 1
+     VALUES =   -0.15261E-09   -0.15261E-09   -0.15261E-09   -0.15261E-09
+
+ SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  2   KVAL = 1
+     VALUES =     0.0000         0.0000         0.0000         0.0000    
+
+ SPECIFIED SURFACE LOAD PRES FOR ALL SELECTED ELEMENTS  LKEY =  3   KVAL = 1
+     VALUES =    -17241.        -17241.        -17241.        -17241.    
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO      15958 STEP          1
+
+      15958  NODES (OF      15958  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO      19545 STEP          1
+
+      19545  ELEMENTS (OF      19545  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE      1 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  1.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
+
+ *IF  ANSINTER_                         ( =   0.00000     )  NE  
+      0                                 ( =   0.00000     )  THEN    
+
+ *ENDIF
+
+ *** NOTE ***                            CP =       1.234   TIME= 16:37:22
+ The automatic domain decomposition logic has selected the MESH domain   
+ decomposition method with 6 processes per solution.                     
+
+ *****  ANSYS SOLVE    COMMAND  *****
+
+ *** WARNING ***                         CP =       1.234   TIME= 16:37:22
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** NOTE ***                            CP =       1.609   TIME= 16:37:22
+ The model data was checked and warning messages were found.             
+  Please review output or errors file ( C:\Users\Administrador\OneDrive  
+ - Universidad Nacional de Colombia\Escritorio\Semestre                  
+ 16\APM\Escalera\_ProjectScratch\Scr9044\file0.err ) for these warning   
+ messages.                                                               
+
+ *** SELECTION OF ELEMENT TECHNOLOGIES FOR APPLICABLE ELEMENTS ***
+      --- GIVE SUGGESTIONS AND RESET THE KEY OPTIONS ---
+
+ ELEMENT TYPE    1 IS SHELL181. IT IS ASSOCIATED WITH ELASTOPLASTIC 
+ MATERIALS ONLY. KEYOPT(8)=2 IS SUGGESTED AND KEYOPT(3)=2 IS SUGGESTED FOR
+ HIGHER ACCURACY OF MEMBRANE STRESSES; OTHERWISE, KEYOPT(3)=0 IS SUGGESTED. 
+ KEYOPT(8) HAS BEEN RESET BUT KEYOPT(3) CAN NOT BE RESET HERE. PLEASE RESET 
+ IT MANUALLY IF NECESSARY.
+  KEYOPT(1-12)=    0    0    2    0    0    0    0    2    0    0    0    0
+
+
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2020 R2          20.2     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 20120530  VERSION=WINDOWS x64   16:37:22  AUG 26, 2023 CP=      1.703
+
+ escalera--Static Structural (A5)                                              
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . UX   UY   UZ   ROTX ROTY ROTZ
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+   EQUATION SOLVER OPTION. . . . . . . . . . . . .SPARSE             
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .SYMMETRIC  
+
+ *** WARNING ***                         CP =       1.703   TIME= 16:37:22
+ Material number 2 (used by element 15865) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** NOTE ***                            CP =       1.797   TIME= 16:37:22
+ The step data was checked and warning messages were found.              
+  Please review output or errors file ( C:\Users\Administrador\OneDrive  
+ - Universidad Nacional de Colombia\Escritorio\Semestre                  
+ 16\APM\Escalera\_ProjectScratch\Scr9044\file0.err ) for these warning   
+ messages.                                                               
+
+ *** NOTE ***                            CP =       1.797   TIME= 16:37:22
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+
+  
+  
+     D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
+  
+  ...Number of elements: 19545
+  ...Number of nodes:    15958
+  ...Decompose to 6 CPU domains
+  ...Element load balance ratio =     1.258
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   NUMBER OF SUBSTEPS. . . . . . . . . . . . . . .     1
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      CONT        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+
+ *** NOTE ***                            CP =       2.406   TIME= 16:37:22
+ Predictor is ON by default for structural elements with rotational      
+ degrees of freedom.  Use the PRED,OFF command to turn the predictor     
+ OFF if it adversely affects the convergence.                            
+
+
+
+                         ***********  PRECISE MASS SUMMARY  ***********
+
+   TOTAL RIGID BODY MASS MATRIX ABOUT ORIGIN
+               Translational mass               |   Coupled translational/rotational mass
+         42.754        0.0000        0.0000     |     0.0000        9.7653       -10.688    
+         0.0000        42.754        0.0000     |    -9.7653        0.0000        9.9904    
+         0.0000        0.0000        42.754     |     10.688       -9.9904        0.0000    
+     ------------------------------------------ | ------------------------------------------
+                                                |         Rotational mass (inertia)
+                                                |     6.4137       -2.4976       -2.0082    
+                                                |    -2.4976        7.0446       -2.4413    
+                                                |    -2.0082       -2.4413        7.8261    
+
+   TOTAL MASS =  42.754    
+     The mass principal axes coincide with the global Cartesian axes
+
+   CENTER OF MASS (X,Y,Z)=   0.23367       0.25000       0.22841    
+
+   TOTAL INERTIA ABOUT CENTER OF MASS
+         1.5111      -0.79417E-07   0.27371    
+       -0.79417E-07    2.4796      -0.73974E-07
+        0.27371      -0.73974E-07    2.8195    
+
+   PRINCIPAL INERTIAS =    1.4562        2.4796        2.8745    
+   ORIENTATION VECTORS OF THE INERTIA PRINCIPAL AXES IN GLOBAL CARTESIAN
+     ( 0.980, 0.000,-0.197) (-0.000, 1.000, 0.000) ( 0.197,-0.000, 0.980) 
+
+
+  *** MASS SUMMARY BY ELEMENT TYPE ***
+
+  TYPE      MASS
+     1   42.7536    
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 1.090265745E+10 at element 9.                                 
+ Minimum = 807092273 at element 6475.                                    
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1     15864  SHELL181      1.453   0.000092
+        2      3681  SURF154       0.141   0.000038
+ Time at end of element matrix formulation CP = 2.78125.                 
+
+ DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =       95629,    Maximum wavefront =     60
+
+  Local memory allocated for solver              =     40.536 MB
+  Local memory required for in-core solution     =     38.987 MB
+  Local memory required for out-of-core solution =     22.009 MB
+
+  Total memory allocated for solver              =    256.361 MB
+  Total memory required for in-core solution     =    246.450 MB
+  Total memory required for out-of-core solution =    136.632 MB
+
+ *** NOTE ***                            CP =       3.000   TIME= 16:37:22
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+ curEqn=  14282  totEqn=  14282 Job CP sec=      3.156
+      Factor Done= 100% Factor Wall sec=      0.079 rate=    7981.3 Mflops
+ Distributed sparse solver maximum pivot= 7.71932686E+09 at node 11329   
+ UY.                                                                     
+ Distributed sparse solver minimum pivot= 113.03209 at node 874 ROTZ.    
+ Distributed sparse solver minimum pivot in absolute value= 113.03209 at 
+ node 874 ROTZ.                                                          
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1     15864  SHELL181      2.312   0.000146
+        2      3681  SURF154       0.141   0.000038
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER   ENAME      TOTAL CP  AVE CP
+
+        1     15864  SHELL181      0.234   0.000015
+        2      3681  SURF154       0.031   0.000008
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      1
+ *** TIME =   1.00000         TIME INC =   1.00000      NEW TRIANG MATRIX
+
+
+ *** ANSYS BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        4.125 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+        3.062 MB WRITTEN ON RESULTS FILE: file0.rst
+ *************** Write FE CONNECTORS *********
+
+ WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 1 *************
+
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.6230556    
+
+ PRINTOUT RESUMED BY /GOP
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  CP =         3.906
+
+
+
+ *** ANSYS - ENGINEERING ANALYSIS SYSTEM  RELEASE 2020 R2          20.2     ***
+ DISTRIBUTED ANSYS Mechanical Enterprise                       
+
+ 20120530  VERSION=WINDOWS x64   16:37:23  AUG 26, 2023 CP=      3.922
+
+ escalera--Static Structural (A5)                                              
+
+
+
+          ***** ANSYS RESULTS INTERPRETATION (POST1) *****
+
+ *** NOTE ***                            CP =       3.922   TIME= 16:37:23
+ Reading results into the database (SET command) will update the current 
+ displacement and force boundary conditions in the database with the     
+ values from the results file for that load set.  Note that any          
+ subsequent solutions will use these values unless action is taken to    
+ either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
+
+ Set Encoding of XML File to:ISO-8859-1
+
+ Set Output of XML File to:
+     PARM,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,
+         ,     ,     ,     ,     ,     ,     ,
+
+ DATABASE WRITTEN ON FILE  parm.xml                                                                                                                                                                                                                                                            
+
+ EXIT THE ANSYS POST1 DATABASE PROCESSOR
+
+
+ ***** ROUTINE COMPLETED *****  CP =         3.922
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE=  16.6230556    
+
+ PARAMETER _PREPTIME =     0.000000000    
+
+ PARAMETER _SOLVTIME =     1.000000000    
+
+ PARAMETER _POSTTIME =     0.000000000    
+
+ PARAMETER _TOTALTIM =     1.000000000    
+
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.25759902    
+
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.809973000E-01
+ --- Total number of nodes = 15958
+ --- Total number of elements = 19545
+ --- Element load balance ratio = 1.25759902
+ --- Time to combine distributed files = 8.09973E-02
+
+ EXIT ANSYS WITHOUT SAVING DATABASE
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          2
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
++--------- D I S T R I B U T E D   A N S Y S   S T A T I S T I C S ------------+
+
+Release: 2020 R2            Build: 20.2       Update: UP20200601   Platform: WINDOWS x64 
+Date Run: 08/26/2023   Time: 16:37     Process ID: 4924
+Operating System: Windows 10  (Build: 19045)
+
+Processor Model: Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz
+
+Compiler: Intel(R) FORTRAN Compiler Version 19.0.0  (Build: 20190206)
+          Intel(R) C/C++ Compiler Version 19.0.0  (Build: 20190206)
+          Intel(R) Math Kernel Library Version 2020.0.0 Product Build 20191125
+
+Number of machines requested            :    1
+Total number of cores available         :   12
+Number of physical cores available      :    6
+Number of processes requested           :    6
+Number of threads per process requested :    1
+Total number of cores requested         :    6 (Distributed Memory Parallel)               
+MPI Type: INTELMPI
+MPI Version: Intel(R) MPI Library 2018 Update 3 for Windows* OS
+
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: dummy.dat
+
+  Core                Machine Name   Working Directory
+ -----------------------------------------------------
+     0                        admi   C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\_ProjectScratch\Scr9044
+     1                        admi   C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\_ProjectScratch\Scr9044
+     2                        admi   C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\_ProjectScratch\Scr9044
+     3                        admi   C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\_ProjectScratch\Scr9044
+     4                        admi   C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\_ProjectScratch\Scr9044
+     5                        admi   C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\_ProjectScratch\Scr9044
+ 
+Latency time from master to core     1 =    2.169 microseconds
+Latency time from master to core     2 =    1.893 microseconds
+Latency time from master to core     3 =    1.844 microseconds
+Latency time from master to core     4 =    1.890 microseconds
+Latency time from master to core     5 =    1.853 microseconds
+ 
+Communication speed from master to core     1 =  5894.27 MB/sec
+Communication speed from master to core     2 =  6274.61 MB/sec
+Communication speed from master to core     3 =  6100.72 MB/sec
+Communication speed from master to core     4 =  6447.66 MB/sec
+Communication speed from master to core     5 =  6978.91 MB/sec
+
+Total CPU time for main thread                    :        2.7 seconds
+Total CPU time summed for all threads             :        4.2 seconds
+
+Elapsed time spent obtaining a license            :        1.6 seconds
+Elapsed time spent pre-processing model (/PREP7)  :        0.1 seconds
+Elapsed time spent solution - preprocessing       :        0.2 seconds
+Elapsed time spent computing solution             :        1.4 seconds
+Elapsed time spent solution - postprocessing      :        0.1 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+ 
+Equation solver used                              :            Sparse (symmetric)
+Equation solver computational rate                :       41.1 Gflops
+Equation solver effective I/O rate                :       21.2 GB/sec
+
+Maximum total memory used                         :      863.0 MB
+Maximum total memory allocated                    :     7232.0 MB
+Total physical memory available                   :         16 GB
+
+Total amount of I/O written to disk               :        0.0 GB
+Total amount of I/O read from disk                :        0.0 GB
+
++------ E N D   D I S T R I B U T E D   A N S Y S   S T A T I S T I C S -------+
+
+
+ *---------------------------------------------------------------------------*
+ |                                                                           |
+ |                       DISTRIBUTED ANSYS RUN COMPLETED                     |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Ansys 2020 R2               Build 20.2         UP20200601     WINDOWS x64 |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ | Database Requested(-db)  1024 MB    Scratch Memory Requested      1024 MB |
+ | Maximum Database Used      17 MB    Maximum Scratch Memory Used    141 MB |
+ |                                                                           |
+ |---------------------------------------------------------------------------|
+ |                                                                           |
+ |        CP Time      (sec) =          4.172       Time  =  16:37:23        |
+ |        Elapsed Time (sec) =          4.000       Date  =  08/26/2023      |
+ |                                                                           |
+ *---------------------------------------------------------------------------*
