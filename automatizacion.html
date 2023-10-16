@@ -106,96 +106,75 @@
     </div>
 
 
-
-    <!-- Start Banner Hero -->
-    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/baselectura.png" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>STEELO</b> Base de lectura</h1>
-                                <h3 class="h2">Elegante</h3>
-                                <p>
-                                    Creamos una base de metal que no solo sostiene tus libros, sino que también añade un toque de elegancia a tu biblioteca. Nuestra base de corte y doblez meticuloso es un complemento perfecto para tus lecturas.                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/silla.png" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1 text-success"><b>STEELO</b> Silla de lujo para exteriores</h1>
-                                <h3 class="h2">Confortable</h3>
-                                <p>
-                                    Sillas de lujo para exteriores son un ejemplo de artesanía en metal. Cortadas, dobladas y pintadas con precisión, estas sillas resisten a los elementos y ofrecen comodidad y estilo para disfrutar del aire libre.                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/escalera.png" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1 text-success"><b>STEELO</b> Escalera</h1>
-                                <h3 class="h2">Funcional</h3>
-                                <p>
-                                    La versatilidad se combina con la durabilidad en nuestra escalera auxiliar de dos escalones. Creada con precisión a partir de láminas metálicas, esta escalera es una solución confiable para alcanzar nuevos niveles en tus tareas cotidianas.                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Start Content Page -->
+    <div class="container-fluid bg-light py-5">
+        <div class="col-md-6 m-auto text-center">
+            <h1 class="h1">Contact Us</h1>
+            <p>
+                Proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet.
+            </p>
         </div>
-        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
-            <i class="fas fa-chevron-left"></i>
-        </a>
-        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
-            <i class="fas fa-chevron-right"></i>
-        </a>
     </div>
 
+    <!-- Start Map -->
+    <div id="mapid" style="width: 100%; height: 300px;"></div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script>
+        var mymap = L.map('mapid').setView([-23.013104, -43.394365, 13], 13);
 
-    <section class="container py-5">
-        <div class="text-center">
-            <img class ="card-img img-fluid logo" src="assets/img/apple-icon.png" alt="LogoSteelo">
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+            maxZoom: 18,
+            attribution: 'Zay Telmplte | Template Design by <a href="https://templatemo.com/">Templatemo</a> | Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1
+        }).addTo(mymap);
 
+        L.marker([-23.013104, -43.394365, 13]).addTo(mymap)
+            .bindPopup("<b>Zay</b> eCommerce Template<br />Location.").openPopup();
+
+        mymap.scrollWheelZoom.disable();
+        mymap.touchZoom.disable();
+    </script>
+    <!-- Ena Map -->
+
+    <!-- Start Contact -->
+    <div class="container py-5">
+        <div class="row py-5">
+            <form class="col-md-9 m-auto" method="post" role="form">
+                <div class="row">
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="inputname">Name</label>
+                        <input type="text" class="form-control mt-1" id="name" name="name" placeholder="Name">
+                    </div>
+                    <div class="form-group col-md-6 mb-3">
+                        <label for="inputemail">Email</label>
+                        <input type="email" class="form-control mt-1" id="email" name="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="inputsubject">Subject</label>
+                    <input type="text" class="form-control mt-1" id="subject" name="subject" placeholder="Subject">
+                </div>
+                <div class="mb-3">
+                    <label for="inputmessage">Message</label>
+                    <textarea class="form-control mt-1" id="message" name="message" placeholder="Message" rows="8"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col text-end mt-2">
+                        <button type="submit" class="btn btn-success btn-lg px-3">Let’s Talk</button>
+                    </div>
+                </div>
+            </form>
         </div>
-    </section>
+    </div>
+    <!-- End Contact -->
 
 
-
-   <section class="container py-5">
-        <div class="row text-center pt-3">
-            <div class="col-lg-6 m-auto">
-                <h1 class="h1">Transformando Metal en Elegancia</h1>
-                <p>
-                    En Steelo, somos pioneros en la transformación del metal en verdadera elegancia. Nuestra dedicación a la artesanía metálica se refleja en cada producto que creamos. Desde bases para libros que aportan un toque de sofisticación a tu biblioteca hasta sillas de lujo para exteriores que resisten los elementos con estilo, y escaleras auxiliares de dos escalones que combinan versatilidad y robustez. Nos enorgullece ser la elección de aquellos que valoran la calidad y la durabilidad en sus productos de metal.
-                </p>
-            </div>
-        </div>
-    </section>
-
+    <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
             <div class="row">
