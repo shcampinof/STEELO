@@ -23,3 +23,17 @@ margin-bottom: 1rem;
 .justificado{
     text-align: justify!important;
 }
+
+.vsm{
+    width: 160%; 
+    padding-right: 5rem;       
+
+
+    }
+    .gestionproyecto{
+        width: 80%;
+        align-items: center;
+        margin: auto;
+        padding-left: 5rem;
+       
+    }
