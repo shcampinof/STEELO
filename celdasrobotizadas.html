@@ -16,10 +16,19 @@
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-
+    <style type="text/css">
+        .tg  {border-collapse:collapse;border-spacing:0;}
+        .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+        overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+        font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg .tg-1wig{font-weight:bold;text-align:center;vertical-align:top}
+        .tg .tg-8zwo{font-style:italic;text-align:center;vertical-align:top}
+        </style>
 </head>
 
 <body>
+    
     <!-- Start Top Nav -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
@@ -86,689 +95,234 @@
 
         </div>
     </nav>
-    <!-- Close Header -->
+    
+    <section class="container py-5">
+        <h1 class="h1 py-3"> <b>Celdas Robotizadas</b></h1>
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1 py-3">Hoja de Ruta</h1> 
+                <p class="justificado">
+                    De acuerdo con lo discutido por los miembros del equipo se realizó el diseño una hoja de ruta tipo diagrama de flujo que resume los pasos a seguir para el diseño de la celda robotizada para el proyecto.
+                </p>
+                <div class="container-fluid py-5" > 
+                    <div style="width: 100%;"><div style="position: relative; padding-bottom: 200%; padding-top: 0; height: 0;"><iframe title="TIMELINE WAY" frameborder="0" width="800" height="1600" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/6519e1203cf1d70011204cd6" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+                </div>
+                <h2 class="h2 py-3">Desarrollo hoja de ruta</h2> 
+                <p class="justificado">
+                    Para el diseño de la celda se plantean una serie de  objetivos y metas que se esperan en automatizar el proceso de pintado en nuestra línea de producción, siendo estas:               
+                </p>
+                <ul>
+                    <li>Disminuir los tiempos de operación para la obtención de los 3 productos de la fábrica.</li>
+                    <li>Disminución de costes de materia prima.</li>
+                </ul>
+                <p class="justificado">
+                    En primer lugar, se empieza el análisis del proceso actual en el cual se clasifican los procesos y productos involucrados en la estación estudiada, siendo el proceso principal el pintado y los productos involucrados son una silla, una escalera y un estante para libros.
+                </p>
+                <p class="justificado">
+                    Mencionando las tareas realizadas en dicha estación de pintura, estas estarían descritas como:
+                </p>
+                <ol>
+                    <li>Recepción del producto:</li>
+                    <ul>
+                        <li class="justificado"> El operario recibe el producto en una ubicación designada, que puede ser una estación de trabajo o una zona específica para pintura.</li>
+                    </ul>
+                    <li>Preparación del área de trabajo:</li>
+                    <ul>
+                        <li class="justificado"> El operario se asegura de que el área de trabajo esté limpia y bien ventilada. Esto es importante para garantizar un entorno seguro y para evitar la contaminación de la pintura.</li>
+                    </ul>
+                    <li>Inspección del producto:</li>
+                    <ul>
+                        <li class="justificado"> Antes de la pintura, el operario inspecciona el producto para asegurarse de que esté libre de defectos y suciedad que puedan afectar la calidad de la pintura.</li>
+                    </ul>
+                    <li>Preparación del equipo de pintura:</li>
+                    <ul>
+                        <li class="justificado">  El operario prepara la pistola de pintura, verificando que esté en buenas condiciones y que los ajustes, como la presión del aire y el flujo de pintura, estén configurados adecuadamente.</li>
+                    </ul>
+                    <li>Agarre y manipulación del producto:</li>
+                    <ul>
+                        <li class="justificado">  El operario toma el producto de manera segura y lo coloca en una posición adecuada para la pintura. Esto puede implicar el uso de herramientas de soporte, como soportes o caballetes.
+                        </li>
+                    </ul>
+                    <li>Aplicación de la pintura:</li>
+                    <ul>
+                        <li class="justificado">  El operario activa la pistola de pintura y aplica la pintura al producto, siguiendo un patrón predefinido y asegurándose de cubrir toda la superficie de manera uniforme.</li>
+                    </ul>
+                    <li>Inspección visual:</li>
+                    <ul>
+                        <li class="justificado">   Tras la aplicación de la pintura, el operario realiza una inspección visual para detectar posibles defectos, como burbujas, rayas o áreas sin pintura. Si es necesario, se realizan retoques.                    </li>
+                    </ul>
+                    <li>Liberación del producto:</li>
+                    <ul>
+                        <li class="justificado">  Una vez que la pintura cumple con los estándares de calidad, el operario coloca el producto pintado en una ubicación específica.  </li>
+                    </ul>            
+                </ol>
 
-    <!-- Modal -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <p class="justificado">
+                    En donde, con el software de Tecnomatix Plant Simulation, se simulan los tiempos de operación para este proceso, lo cual se resume en la siguiente figura:
+                </p>
+                <div class="container-fluid" > 
+                    <img class="img-fluid" src="assets/img/tiempospintado.png" alt="tiempospintado">
+                    <p>Resumen de tiempos en el proceso actual de pintado.</p>
+                </div>
+
+                <p class="justificado py-3">
+                    Después de lo anterior, ya que se tiene una necesidad clara de robotización en ese proceso se debe identificar el espacio de trabajo de la celda, por lo cual el espacio que se tiene disponible que como se mencionó es de 2*2.5 m pero se estimaría que para una celda robotizada si se usará un robot de tamaño mediano que tuviese un alcance máximo de 2 m aproximadamente, esa medida agregando las bandas transportadoras de entrada y salida de los productos, es posible que la celda robotizada tenga una longitud total de alrededor de 3 metros dependiendo el alcance en esa dirección que tenga el robot. En cuanto al ancho, es posible que la celda tenga un ancho no tan diferente al que se posee actualmente ya que solo sería necesaria la medida agregada del robot además de las barreras físicas. Y en cuanto a la altura, depende del tamaño del robot y los elementos de seguridad necesarios lo que aumentaría la altura total. Además, se necesitarán sensores de proximidad, sistemas de parada de emergencia y señalización clara para garantizar la seguridad del personal y el correcto funcionamiento del robot.
+                </p>
+                <p class="justificado">
+                    Ahora bien, hablando en términos de la secuencia que se piensa tener para el flujo de material que habrá en dicha celda robotizada se prevé que los productos entren a la celda gracias a un deslizador de piezas colgantes, el robot haga el proceso de pintado de acuerdo con el tipo de producto que entre y de la misma forma cuando el robot haya terminado se salga de la celda por los mismos deslizadores colgantes para que luego pasen a otra estación.
+                </p>
+                <h1 class="h1 py-3">Layout propuesto</h1> 
+
+                <p class="justificado">
+                Ahora bien, se debe de seleccionar la herramienta a utilizar y el gripper diseñado para nuestra aplicación, por lo cual se consultaron diferentes catálogos, pero se encontró que en la marca ABB existen atomizadores que cumplen la función de un gripeer y la herramienta de trabajo que en este caso sería la pistola de pintura electrostática. Por estas mismas características se seleccionó en primera instancia el siguiente gripper:
+              </p>
+                <p class="justificado">
+                ·  ROBOBEL625-MC: Este atomizador pesa 6.7 kg y es compacto y ligero destinado para el uso de robots de pintura y cuenta con la opción de limpieza exterior de campana.
+            </p>
+                <p class="justificado">Cabe resaltar que para la selección del robot se tuvo en cuenta el peso de cualquier equipo adicional (como mangueras o cables) y el peso de la propia pintura para asegurarse de que el peso total de todos estos componentes no supere la capacidad de carga máxima del robot en ninguna configuración.
+                Lo cual se puede resumir en:
+            </p>
+                <ul>
+                <li class="justificado">          Mangueras de pintura: El peso de las mangueras de pintura puede variar mucho en función de su longitud, diámetro y material. Como estimación aproximada, una manguera de pintura sin aire de 25 pies podría pesar alrededor de 1-2 kg. Teniendo un valor aproximado de 17,85 US$</li>
+                <li class="justificado">          Pintura: El peso de la pintura dependerá del volumen que se utilice y del tipo concreto de pintura. Como estimación aproximada, si se utiliza 1 litro de pintura, teniendo en cuenta que la densidad de la mayoría de las pinturas se aproxima a la del agua (aproximadamente 1 kg/litro), pesaría aproximadamente 1 kg. Teniendo un valor aproximado de 39,99 US$</li>
+                </ul>
+                <p class="justificado"> 
+                De acuerdo con la información anterior se consultaron robots diseñados precisamente para esta tarea de pintado y en términos de calidad y también por su diseño elaborado para específicamente la tarea de pintado de piezas de pequeño a mediano tamaño, además de características como el tamaño y el alcance del robot teniendo en cuenta las dimensiones del producto más grande que es la silla, la cual sus dimensiones no superan los 1,2 metros, se seleccionó la siguiente referencia de robot:     
+            </p>
+            <ul>
+                <li class="justificado">       IRB 5510: El IRB 5510 es un robot de pintura de tamaño medio fabricado por ABB Robotics. Es muy versátil y está destinado a aplicaciones de pintura de piezas pequeñas, tratamiento con llama y abridores. La mayor aceleración del robot proporciona tiempos de ciclo más rápidos, lo que se traduce en un aumento de la productividad. También presenta un diseño de manipulador aerodinámico para facilitar su uso, simplificar el soporte de software y reducir los costes operativos. Tiene una carga útil máxima en la muñeca de 13 kg y un índice de protección IP66 (IP54 en la muñeca). Su diseño permite cargas útiles elevadas de hasta 1.000 kg con la muñeca en posición horizontal. Tiene un alcance máximo de 2.25 m que excede el tamaño máximo de la pieza mas grande a trabajar. Además, el tamaño compacto y el diseño flexible del robot facilitan su integración en distintos entornos de producción, lo que aumenta aún más su versatilidad.</li>
+                 
+                <li>Su precio es alrededor de 22550 US$</li>
+                 
+                <li>Se muestra en la siguiente figura el espacio de trabajo del robot de acuerdo con el fabricante:</li>
+            </ul>
+
+            <div class="container-fluid py-5" > 
+                <img class="img-fluid" src="assets/img/espaciotrabajorobot.png" alt="espaciotrabajorobot">
+                <p> Espacio de trabajo del robot IRB 5510</p>
             </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
+            <p class="justificado"> 
+                Se contemplaron 2 opciones para la celda las cuales se muestran a continuación:
+            </p>
+
+            <div class="container-fluid py-3" > 
+                <img class="img-fluid" src="assets/img/propuestacelda1.png" alt="propuestacelda1">
+                <p> Opción 1 de Layout para celda de pintura</p>
+            </div>
+
+            <p class="justificado"> 
+                En este primer Layout se trató de utilizar dos robots para hacer el pintado de todas las superficies de los diferentes productos de la planta. Un riel lleva de forma colgante los elementos que son pintados por unos manipuladores por cada una de sus caras que deben ser cubiertas en su totalidad por los dos robots, esta cuenta con una cabina de pintura aislada e ignifuga. La celda cuenta con una configuración en la que externamente se encuentran los tableros y el controlador de tal forma que no es necesario ingresar para hacer monitoreo u operación de este.            </p>
+            <div class="container-fluid py-3" > 
+                <img class="img-fluid" src="assets/img/propuestacelda2.png" alt="propuestacelda2">
+                <p> Opción 2 de Layout para celda de pintura</p>
+            </div>
+            <p class="justificado"> 
+                En el segundo Layout se propone el uso de un solo robot teniendo en cuenta que los robots son muy costosos y de su buen diseño depende la viabilidad del proyecto. Un riel lleva de forma colgante los elementos que son pintados alrededor del manipulador para que pueda pintar cada uno de los productos de en su totalidad, esta celda robótica al igual que la anterior cuenta con una cabina de pintura aislada e ignifuga. La celda cuenta con una configuración en la que externamente se encuentran los tableros y el controlador de tal forma que no es necesario ingresar para hacer monitoreo u operación de este.            
+            </p>
+            <p class="justificado"> 
+                Pero haciendo una matriz de selección evaluando las ventajas y desventajas de cada propuesta realizada para la celda robotizada obtenemos esta tabla:            </p>
+
+                <div class="container-fluid py-3" > 
+                    <table class="tg container-fluid" style="text-align: center;">
+                    <thead>
+                    <tr>
+                        <th class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">Aspecto</span></th>
+                        <th class="tg-8zwo"><span style="font-style:italic;text-decoration:none;color:#000;background-color:transparent">Diseño 1</span></th>
+                        <th class="tg-8zwo"><span style="text-decoration:none;color:#000;background-color:transparent">Diseño 2</span></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Precio</span></td>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">50500 USD</span></td>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">27950 USD</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Calidad de acabado</span></td>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Excelente</span></td>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Excelente</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Eficiencia</span></td>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Excelente</span></td>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Excelente</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Mantenimiento</span></td>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Bueno</span></td>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Excelente</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Flexibilidad</span></td>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Excelente</span></td>
+                        <td class="tg-1wig"><span style="font-weight:400;text-decoration:none;color:#000;background-color:transparent">Excelente</span></td>
+                    </tr>
+                    </tbody>
+                    </table>
                 </div>
-            </form>
-        </div>
-    </div>
 
-
-
-    <!-- Open Content -->
-    <section class="bg-light">
-        <div class="container pb-5">
-            <div class="row">
-                <div class="col-lg-5 mt-5">
-                    <div class="card mb-3">
-                        <img class="card-img img-fluid" src="assets/img/product_single_10.jpg" alt="Card image cap" id="product-detail">
-                    </div>
-                    <div class="row">
-                        <!--Start Controls-->
-                        <div class="col-1 align-self-center">
-                            <a href="#multi-item-example" role="button" data-bs-slide="prev">
-                                <i class="text-dark fas fa-chevron-left"></i>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                        </div>
-                        <!--End Controls-->
-                        <!--Start Carousel Wrapper-->
-                        <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item" data-bs-ride="carousel">
-                            <!--Start Slides-->
-                            <div class="carousel-inner product-links-wap" role="listbox">
-
-                                <!--First slide-->
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_01.jpg" alt="Product Image 1">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_02.jpg" alt="Product Image 2">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_03.jpg" alt="Product Image 3">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/.First slide-->
-
-                                <!--Second slide-->
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_04.jpg" alt="Product Image 4">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_05.jpg" alt="Product Image 5">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_06.jpg" alt="Product Image 6">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/.Second slide-->
-
-                                <!--Third slide-->
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_07.jpg" alt="Product Image 7">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_08.jpg" alt="Product Image 8">
-                                            </a>
-                                        </div>
-                                        <div class="col-4">
-                                            <a href="#">
-                                                <img class="card-img img-fluid" src="assets/img/product_single_09.jpg" alt="Product Image 9">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/.Third slide-->
-                            </div>
-                            <!--End Slides-->
-                        </div>
-                        <!--End Carousel Wrapper-->
-                        <!--Start Controls-->
-                        <div class="col-1 align-self-center">
-                            <a href="#multi-item-example" role="button" data-bs-slide="next">
-                                <i class="text-dark fas fa-chevron-right"></i>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                        <!--End Controls-->
-                    </div>
+                <p class="justificado">De acuerdo con la anterior matriz de selección se decide implementar el diseño mencionado en el  <b>layout 2</b>. </p>
+                
+                <h1 class="h1 py-3">Rutina del robot y comparación de tiempos</h1> 
+            
+                <p class="justificado py-3">
+                    Como se escogió un robot de la marca ABB, se podría usar el software de RobotStudio para la programación remota de las rutinas del robot, por lo que la lógica de esas rutinas podría estar resumidas como:   
+                </p>
+                <ul>
+                <li class="justificado">Dependiendo de un sensado previo, se identifica que pieza entra para ser pintada</li>
+                <li class="justificado">Con una programación previa hecha para cada tipo de producto, se activa una salida para que empiece la descarga y pulverización de la pintura sobre la superficie</li>
+                <li class="justificado" >Se espere una respuesta externa booleana en donde se diga si el producto cumple con los estándares mínimos de pintura o no.</li>
+                <li class="justificado">Si los cumple que siga el producto y si no que el robot haga retoques en la pintura</li>
+                <li class="justificado">simular los tiempos de operación de la celda robotizada, lo cuales están resumidos en la siguiente tabla y compararlos con los que se tenían en el proceso actual:</li>
+                </ul>
+                <div class="container-fluid py-3" > 
+                    <img class="img-fluid" src="assets/img/tiempospintadonuevo.png" alt="tiempospintadonuevo">
+                    <p> Resumen de tiempos en el proceso automatizado de la celda robotizada</p>
                 </div>
-                <!-- col end -->
-                <div class="col-lg-7 mt-5">
-                    <div class="card">
-                        <div class="card-body">
-                            <h1 class="h2">Active Wear</h1>
-                            <p class="h3 py-2">$25.00</p>
-                            <p class="py-2">
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-warning"></i>
-                                <i class="fa fa-star text-secondary"></i>
-                                <span class="list-inline-item text-dark">Rating 4.8 | 36 Comments</span>
-                            </p>
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <h6>Brand:</h6>
-                                </li>
-                                <li class="list-inline-item">
-                                    <p class="text-muted"><strong>Easy Wear</strong></p>
-                                </li>
-                            </ul>
+                <p class="justificado py-3">
+                    Por la tabla anterior se ve que se incluyó como expresado anteriormente el proceso de cocido de la pintura a la celda robotizada teniendo que en solo el proceso de pintado los tiempos para la base, escalera y silla cambiaron en un 90.91%, 63.33%.y 63.33% respectivamente, lo cual supone en una ventaja para el cálculo del OEE y en si para toda la producción de la planta.
+                </p>
 
-                            <h6>Description:</h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temp incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse. Donec condimentum elementum convallis. Nunc sed orci a diam ultrices aliquet interdum quis nulla.</p>
-                            <ul class="list-inline">
-                                <li class="list-inline-item">
-                                    <h6>Avaliable Color :</h6>
-                                </li>
-                                <li class="list-inline-item">
-                                    <p class="text-muted"><strong>White / Black</strong></p>
-                                </li>
-                            </ul>
+                <h1 class="h1 py-3">Peligros // Riesgos // Seguridad</h1>
+                <p class="justificado">Para el tema de seguridad se deben identificar los peligros y las fuentes de riesgo en primer lugar. Existen peligros meramente mecánicos como aplastamiento, atrapamiento o golpe, por lo cual existen riesgos como:</p>  
+                <ul>
+                    <li>Puesta en marcha el robot</li>
+                    <li>Configuración</li>
+                    <li>Funcionamiento normal y reparación de averías</li>
+                    <li>Puesta fuera de servicio y eliminación de residuos</li>
+                </ul>
+                <p class="justificado py-3">Cabe resaltar que en términos de configuración se hace referencia a el posible riesgo que podría tener el operario si desea programar el robot de manera manual con el Flex Pendant o su vez también se puede interpretar de forma correcta como el caso en que el robot por cierta configuración que tenga en su rutina pudiese tomar una posición no convencional que pudiese atrapar o golpear a algún operario.
+                </p>
+                <p class="justificado"> Por lo que para solventar estas cuestiones de seguridad se debe empezar con medidas de control y comunicación segura, en donde estas se refieren por ejemplo a paradas de emergencia que debe tener la celda. A su vez la monitorización segura de la posición del robot, esto se ve reflejado en la opción escogida de la celda en la que se contempló que el apartado de control y monitoreo estuviera por fuera de las barreras físicas de la misma. De la misma forma se deberían implementar acciones de enclavamiento o bloqueo de barreras físicas como puertas para acceder al robot cuando se vaya a hacer mantenimiento o limpieza.
+                </p>
+                <p class="justificado">De acuerdo con lo anterior se presenta a manera general una lista de los equipos de seguridad necesarios para nuestra celda:</p>
+            <ul>
+                <li>  Paradas de emergencia - Precio: US$13.99</li>
+                <li>  Puertas All around</li>
+                <ul>
+                    <li> No se encuentra el precio como tal del producto, pero se deja el link de la referencia: <a  href="https://robotunits.com/es/shop/sistema-de-cerramientos-de-seguridad/cerramiento-de-seguridad-allround/puertas-simples-allround/">Cerramiento allround</a></li>
+                    <li> No se encuentra el precio como tal del producto, pero se deja el link de la referencia: <a  href="https://robotunits.com/es/shop/sistema-de-cerramientos-de-seguridad/cerramiento-de-seguridad-allround/elemento-allround-de-anchura-estandar/">Cerramiento allround 2</a></li>
+                </ul>
+                <li>Dispositivos de enclavamiento o bloqueo de barreras físicas</li>
+                <ul>
+                    <li> No se encuentra el precio como tal del producto, pero se deja el link de la referencia: <a  href="https://robotunits.com/es/shop/sistema-de-cerramientos-de-seguridad/accesorios-para-los-sistemas-de-cerramientos-de-seguridad/interruptor-de-seguridad/">Dispositivo de bloqueo de barreras físicas</a></li>
+                    <li> No se encuentra el precio como tal del producto, pero se deja el link de la referencia: <a  href="https://www.rockwellautomation.com/es-mx/products/hardware/allen-bradley/safety-products/safety-sensors/safety-interlock-switches/trapped-key-interlock-switches/440t-access-and-chains.html">Dispositivo de bloqueo de barreras físicas 2</a></li>
+                </ul>
+                <li>Sensor de proximidad inductivo BI4-M12-AP6X-H1141 – Precio: $121.429 USD</li>
+                <li>Cortina de seguridad (AOPD)</li>
+                <ul>
+                    <li> Cortina de luz de seguridad de guardia perimetral SGSA3-S400-NFP – Precio: 669 USD</li>
+                    <li> o   Emisores y receptores de cortina de seguridad SLPCE25-1250 – Precio: 1655 USD </li>
+                </ul>
+            </ul>
 
-                            <h6>Specification:</h6>
-                            <ul class="list-unstyled pb-3">
-                                <li>Lorem ipsum dolor sit</li>
-                                <li>Amet, consectetur</li>
-                                <li>Adipiscing elit,set</li>
-                                <li>Duis aute irure</li>
-                                <li>Ut enim ad minim</li>
-                                <li>Dolore magna aliqua</li>
-                                <li>Excepteur sint</li>
-                            </ul>
-
-                            <form action="" method="GET">
-                                <input type="hidden" name="product-title" value="Activewear">
-                                <div class="row">
-                                    <div class="col-auto">
-                                        <ul class="list-inline pb-3">
-                                            <li class="list-inline-item">Size :
-                                                <input type="hidden" name="product-size" id="product-size" value="S">
-                                            </li>
-                                            <li class="list-inline-item"><span class="btn btn-success btn-size">S</span></li>
-                                            <li class="list-inline-item"><span class="btn btn-success btn-size">M</span></li>
-                                            <li class="list-inline-item"><span class="btn btn-success btn-size">L</span></li>
-                                            <li class="list-inline-item"><span class="btn btn-success btn-size">XL</span></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-auto">
-                                        <ul class="list-inline pb-3">
-                                            <li class="list-inline-item text-right">
-                                                Quantity
-                                                <input type="hidden" name="product-quanity" id="product-quanity" value="1">
-                                            </li>
-                                            <li class="list-inline-item"><span class="btn btn-success" id="btn-minus">-</span></li>
-                                            <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
-                                            <li class="list-inline-item"><span class="btn btn-success" id="btn-plus">+</span></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="row pb-3">
-                                    <div class="col d-grid">
-                                        <button type="submit" class="btn btn-success btn-lg" name="submit" value="buy">Buy</button>
-                                    </div>
-                                    <div class="col d-grid">
-                                        <button type="submit" class="btn btn-success btn-lg" name="submit" value="addtocard">Add To Cart</button>
-                                    </div>
-                                </div>
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
+            <p class="justificado"> Si se requiere más información de la hoja ruta asi como mas especificaciones consultar el siguiente documento:</p>
+            
             </div>
         </div>
+        
+                       
     </section>
-    <!-- Close Content -->
-
-    <!-- Start Article -->
-    <section class="py-5">
-        <div class="container">
-            <div class="row text-left p-2 pb-3">
-                <h4>Related Products</h4>
-            </div>
-
-            <!--Start Carousel Wrapper-->
-            <div id="carousel-related-product">
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Red Clothing</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$20.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_09.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">White Shirt</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$25.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_10.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$45.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_11.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Black Fashion</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$60.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li class="">M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$80.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_09.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$110.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_10.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$125.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_11.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$160.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$180.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_09.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$220.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_10.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$250.00</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-2 pb-3">
-                    <div class="product-wap card rounded-0">
-                        <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/shop_11.jpg">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                <ul class="list-unstyled">
-                                    <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                    <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                            <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                <li>M/L/X/XL</li>
-                                <li class="pt-2">
-                                    <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                    <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                </li>
-                            </ul>
-                            <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                            </ul>
-                            <p class="text-center mb-0">$300.00</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-    </section>
-    <!-- End Article -->
 
 
         <!-- Start Footer -->
