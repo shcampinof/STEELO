@@ -80,556 +80,781 @@
                         </li>
                     </ul>
                 </div>
-                <div class="navbar align-self-center d-flex">
-                </div>
             </div>
 
         </div>
     </nav>
     <!-- Close Header -->
-    <!-- Modal -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
+
+    <!-- Base de lectura -->
 
 
-
-    <!-- Start Content -->
-    <div class="container py-5">
+    <section class="container py-5">
+        <h1 class="h1 py-3"> <b>Gestión de la Producción</b></h1>
         <div class="row">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Datos Planta Base</h1>
+                <p class="justificado">
+                    Para este caso se toma como referencia una empresa que maneja lámina de acero para sus productos, en este caso solo se toma de referencia los tiempos que se manejan actualmente en la planta. El nombre de la empresa es FACCEL SAS, empresa dedicada a la fabricación de tableros y celdas como insumos para la industria eléctrica en la ciudadela industrial de Duitama en el departamento de Boyacá. 
+                </p>
+                <p class="justificado">
+                    Nota: se realizan ajustes al tiempo dado por FACCEL según el tipo de producto, debido a la cantidad de dobleces (doblado) y el tamaño del producto (pintado y horneado).</p>
+                <div class="container-fluid py-5" > 
+                    <img class="img-fluid" src="assets/img/faccellogo.png" alt="faccel">
+                </div>
+                <h3 class="h3">Distribución (Diagrama de flujo de procesos)</h3>
+                <div class="container-fluid py-3"> 
+                    <img class="img-fluid" src="assets/img/diagramaplantabase.png" alt="diagramaplantabase">
+                    <p>En este caso el Lavado y alistamiento de las máquinas está implícito en el recuadro de corte.</p>
+                </div>
 
-            <div class="col-lg-3">
-                <h1 class="h2 pb-4">Categories</h1>
-                <ul class="list-unstyled templatemo-accordion">
-                    <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                            Gender
-                            <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
-                        </a>
-                        <ul class="collapse show list-unstyled pl-3">
-                            <li><a class="text-decoration-none" href="#">Men</a></li>
-                            <li><a class="text-decoration-none" href="#">Women</a></li>
-                        </ul>
-                    </li>
-                    <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                            Sale
-                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
-                        </a>
-                        <ul id="collapseTwo" class="collapse list-unstyled pl-3">
-                            <li><a class="text-decoration-none" href="#">Sport</a></li>
-                            <li><a class="text-decoration-none" href="#">Luxury</a></li>
-                        </ul>
-                    </li>
-                    <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                            Product
-                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
-                        </a>
-                        <ul id="collapseThree" class="collapse list-unstyled pl-3">
-                            <li><a class="text-decoration-none" href="#">Bag</a></li>
-                            <li><a class="text-decoration-none" href="#">Sweather</a></li>
-                            <li><a class="text-decoration-none" href="#">Sunglass</a></li>
-                        </ul>
-                    </li>
+                <table class=a border=1 cellspacing=0 cellpadding=0 width=608 style='border-collapse:
+ collapse;mso-table-layout-alt:fixed;border:none;mso-border-alt:solid black 1.0pt;
+ mso-yfti-tbllook:1536;mso-padding-alt:5.0pt 5.0pt 5.0pt 5.0pt;mso-border-insideh:
+ 1.0pt solid black;mso-border-insidev:1.0pt solid black'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=94 valign=top style='width:70.85pt;border:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><b
+  style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt'>Proceso<o:p></o:p></span></b></p>
+  </td>
+  <td width=105 valign=top style='width:78.4pt;border:solid black 1.0pt;
+  border-left:none;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><b
+  style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt'>M�quina<o:p></o:p></span></b></p>
+  </td>
+  <td width=109 valign=top style='width:81.5pt;border:solid black 1.0pt;
+  border-left:none;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><b
+  style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt'>Caracter�sticas<o:p></o:p></span></b></p>
+  </td>
+  <td width=101 valign=top style='width:75.85pt;border:solid black 1.0pt;
+  border-left:none;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><b
+  style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt'>Tiempo<o:p></o:p></span></b></p>
+  </td>
+  <td width=99 valign=top style='width:74.6pt;border:solid black 1.0pt;
+  border-left:none;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><b
+  style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt'>Dimensiones<o:p></o:p></span></b></p>
+  </td>
+  <td width=99 valign=top style='width:74.6pt;border:solid black 1.0pt;
+  border-left:none;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><b
+  style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt'>Enlace
+  de referencia<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=94 valign=top style='width:70.85pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><b
+  style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt'>Corte
+  de lamina<o:p></o:p></span></b></p>
+  </td>
+  <td width=105 valign=top style='width:78.4pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>LF 3015<span class=GramE>E<span
+  style='mso-spacerun:yes'>� </span>Laser</span> <span class=SpellE>Cutter</span>
+  CNC M�quina de corte por l�ser de fibra Hoja de metal�<o:p></o:p></span></p>
+  </td>
+  <td width=109 valign=top style='width:81.5pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>Velocidad m�xima de posicionamiento del eje
+  X/Y:<o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>90m/min<o:p></o:p></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.85pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>&lt; 2-10 min seg�n velocidad, <span
+  class=SpellE>etc</span><o:p></o:p></span></p>
+  </td>
+  <td width=99 valign=top style='width:74.6pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+  solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>3.0 x 1.5 m<o:p></o:p></span></p>
+  </td>
+  <td width=99 valign=top style='width:74.6pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+  solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es><a href="https://www.gwklaser.com/fiberlaser/LF3015E.html"><span
+  style='font-size:10.0pt;color:#1155CC'>https://www.gwklaser.com/fiberlaser/LF3015E.html</span></a></span><span
+  lang=es style='font-size:10.0pt'><o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=94 valign=top style='width:70.85pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><b
+  style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt'>Doblado
+  de lamina<o:p></o:p></span></b></p>
+  </td>
+  <td width=105 valign=top style='width:78.4pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal'><span class=SpellE><span
+  lang=es style='font-size:10.0pt'>Jugao</span></span><span lang=es
+  style='font-size:10.0pt'> Hidr�ulico plegadora de chapas con eje opcional
+  1/8''X8'<o:p></o:p></span></p>
+  </td>
+  <td width=109 valign=top style='width:81.5pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.85pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>2 min <span class=SpellE>aprox</span> por
+  doblez<o:p></o:p></span></p>
+  </td>
+  <td width=99 valign=top style='width:74.6pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+  solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>3.5 x 1.5 m<o:p></o:p></span></p>
+  </td>
+  <td width=99 valign=top style='width:74.6pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+  solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>https://acortar.link/DJEXxN<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=94 valign=top style='width:70.85pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><b
+  style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt'>Pintado
+  <o:p></o:p></span></b></p>
+  </td>
+  <td width=105 valign=top style='width:78.4pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal'><span lang=es style='font-size:
+  10.0pt'>M�quina De Recubrimiento En Polvo Electrost�tico <span class=SpellE>Mophorn</span>
+  40w<o:p></o:p></span></p>
+  </td>
+  <td width=109 valign=top style='width:81.5pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.85pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=99 valign=top style='width:74.6pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+  solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>53.34 cm x 53.34 cm x 68.58 cm<o:p></o:p></span></p>
+  </td>
+  <td width=99 valign=top style='width:74.6pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+  solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+  <td width=94 valign=top style='width:70.85pt;border:solid black 1.0pt;
+  border-top:none;mso-border-top-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><b
+  style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt'>Horneado<o:p></o:p></span></b></p>
+  </td>
+  <td width=105 valign=top style='width:78.4pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal'><span lang=es style='font-size:
+  10.0pt'>Horno de curado para revestimiento en polvo industrial COLO-1732<o:p></o:p></span></p>
+  </td>
+  <td width=109 valign=top style='width:81.5pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td width=101 valign=top style='width:75.85pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;
+  mso-border-top-alt:solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;
+  padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>Tiempo calentamiento: 15-30min(180�C)<o:p></o:p></span></p>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>Tiempo <span class=SpellE>prom</span> 45
+  min.<o:p></o:p></span></p>
+  </td>
+  <td width=99 valign=top style='width:74.6pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+  solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'>1.95 x 3.5m<o:p></o:p></span></p>
+  </td>
+  <td width=99 valign=top style='width:74.6pt;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+  solid black 1.0pt;mso-border-left-alt:solid black 1.0pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
+  <p class=MsoNormal style='line-height:normal;mso-pagination:none'><span
+  lang=es style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+</table>
+                <h1 class="h1 py-3" >Gráficas y simulación en plant simulation de la planta base</h1>
+                <p class="justificado"> Así se puede ver que a través de la simulación en el software de Tecnomatix que al día se producen 15 sillas(Portalibros o escaleras) en condiciones de calidad óptimas y 1 para reprocesar o venderla por una calidad inferior. Además se observa que las estaciones de limpieza y corte láser se encuentran bloqueadas porque en general sus procesos son mucho más cortos que los de las demás máquinas. También se puede ver que un cuello de botella es el doblado ya que es la estación en la que la proporción entre tiempo de bloqueo y tiempo de espera se invierten. El pintado es otro punto del proceso que genera un cuello de botella ya que se encuentra la mayoría del tiempo trabajando y en falla por esto esto coloca las estaciones anterior y siguiente en bloqueo y espera respectivamente. El Horno y todas las estaciones siguientes pasan la mayoría de su tiempo en espera a causa del cuello de la estación de pintura.
+                    De esta misma forma se obtienen los resultados para los otros dos productos así:
+                </p>
+                <div class="container-fluid py-5" > 
+                    <img class="img-fluid" src="assets/img/PSimA.png" alt="PSimA">
+                </div>    
+
+                   <p class="justificado">
+                    Posteriormente con estos datos es necesario obtener los indicadores de desempeño de  la planta nueva. En la siguiente tabla se puede ver que el OEE de la planta está sobre el 76% lo que supone una planta por encima del promedio latinoaméricano lo que nos pone en la necesidad de reevaluar al final si es posible alcanzar lo estimado en las suposiciones de añadir tres estaciones de doblado y robotizar la cámara de pintado. Según lo comentado por la fuente de información de la planta nueva la calidad puede estar sobre un porcentaje de 97% ya que se espera que mejore 2 puntos porcentuales la calidad ya que el 40% de los productos defectuosos corresponden a imperfecciones en pintura. Por otro lado, el tiempo de ejecución planeado y el tiempo de las fallas e inactividad no planeada se obtiene una disponibilidad de 88%. Por último la eficiencia de desempeño que cuantifica qué tan rápido se hacen realmente al comparar los tiempos de ciclo planeados y reales tiene un valor de 89% que es la sección en la que se esperaba el cambio más notable al mejorar el rendimiento en velocidad al reducir los tiempos de espera y bloqueo que tenían cada una de las estaciones.
+                   </p>
+                    
+                   <img class="img-fluid" src="assets/img/tablaOEEA.png" alt="OEEA">
+
+                   <h1 class="h1 py-3" >VSM Planta base</h1>
+
+                   <div class="container-fluid py-5" > 
+                        <img src="assets/img/VSMBase.png" alt="PSimA">
+                    </div>   
+
+                <h1 class="h1 py-3" >Datos en el documento de la planta mejorada</h1>
+
+                <p class="justificado">Para proponer la implementación de mejoras de la planta es necesario primero definir los puntos que desean evaluarse de acuerdo a el análisis realizado anteriormente con la planta base.
+                    Los aspectos clave identificados por el equipo de trabajo son:
+                </p>
+                <ul>
+                    <li>Distribución ineficiente de la planta, estaciones distantes y división de tareas requeridas para un producto, cruce de líneas de flujo que puede conllevar a accidentes.</li>
+                    <li>Cuello de botella en la estación de doblado</li>
+                    <li>Cuello de botella en la estación de pintado</li>
+                    <li>Necesidad de automatización para reducir tiempos en estaciones como en el embalaje.</li>
+                    <li>Necesidad de medir el rendimiento de cada una de las estaciones en el largo plazo, si decide continuar utilizando las mismas máquinas.</li>
                 </ul>
+
+                <p class="justificado">
+                    Dado que todos los productos tienen procesos similares, se elige una disposición celular, con las siguientes células o estaciones asociadas con los procesos de manufactura:
+                </p>
+                <ol>
+                    <li> Área de Limpieza</li>
+                    <li> Área de corte de lámina :<ol>
+                        <li>Estaciones para corte de lámina.</li>
+                        <li>Espacio para almacenamiento temporal de láminas.</li></ol></li>
+                    <li> Área de doblado lámina :<ol>
+                     <li>Estaciones para dobleces</li>
+                     <li>Espacio para almacenamiento temporal de láminas </li></ol></li>
+                     <li>Área de pulido</li>
+                        <li> Área de Pintura<ol>
+                    <li>Celda Robotizada de pintura</li>
+                    <li>Horno</li>
+                    <li>Espacio para almacenamiento de productos pintados.</li></ol></li>
+                    <li> Estación de Antideslizantes</li>
+                        <li>Estación de Embalaje</li>
+                            <li> Estación de Calidad (Ubicada en el almacén)
+                </ol>
+
+                <p class="justificado"> 
+                    A continuación se muestra la distribución de la planta modificada. La planta se modifica con la intención de mejorar la productividad por medio de procesos de automatización. Cabe anotar que la planta se trasladará a una nueva bodega industrial de mayor tamaño para evitar que se realicen procesos en dos recintos distintos y evitar el transporte de la materia entre bodegas.
+                </p>
+
+                <div class="container-fluid py-5" > 
+                    <img class="img-fluid" src="assets/img/diagramaplantaauto.png" alt="diagramaplantaauto">
+                    <img class="img-fluid py-3" src="assets/img/plano-planta.png" alt="plano-planta">
+                </div>  
+
+                <h1 class="h1">Gráficas y simulación de la planta mejorada</h1>
+
+                <div class="container-fluid py-5" > 
+                    <img class="img-fluid" src="assets/img/PSimB.png" alt="PSimB">
+                </div>  
+
+                <p class="justificado">
+                    Posteriormente con estos datos es necesario obtener los indicadores de desempeño de  la planta nueva. En la siguiente tabla se puede ver que el OEE de la planta está sobre el 76% lo que supone una planta por encima del promedio latinoaméricano lo que nos pone en la necesidad de reevaluar al final si es posible alcanzar lo estimado en las suposiciones de añadir tres estaciones de doblado y robotizar la cámara de pintado. Según lo comentado por la fuente de información de la planta nueva la calidad puede estar sobre un porcentaje de 97% ya que se espera que mejore 2 puntos porcentuales la calidad ya que el 40% de los productos defectuosos corresponden a imperfecciones en pintura. Por otro lado, el tiempo de ejecución planeado y el tiempo de las fallas e inactividad no planeada se obtiene una disponibilidad de 88%. Por último la eficiencia de desempeño que cuantifica qué tan rápido se hacen realmente al comparar los tiempos de ciclo planeados y reales tiene un valor de 89% que es la sección en la que se esperaba el cambio más notable al mejorar el rendimiento en velocidad al reducir los tiempos de espera y bloqueo que tenían cada una de las estaciones.
+                </p>
+
+                <div class="container-fluid py-5" > 
+                    <img class="img-fluid" src="assets/img/tablaOEE.png" alt="OEE">
+                </div>  
+
+                <h1 class="h1"> VSM Planta Mejorada</h1>
+
+                <div class="container-fluid py-5" > 
+                    <img class="img-fluid" src="assets/img/VSMMejorado.png" alt="VSMMejorado">
+                </div>  
+
+
+
+                    
+                    <table class=a0 border=1 cellspacing=0 cellpadding=0 width=702
+                    style='margin-left:-38.25pt;border-collapse:collapse;mso-table-layout-alt:
+                    fixed;border:none;mso-border-alt:solid black 1.0pt;mso-yfti-tbllook:1536;
+                    mso-padding-alt:5.0pt 5.0pt 5.0pt 5.0pt;mso-border-insideh:1.0pt solid black;
+                    mso-border-insidev:1.0pt solid black'>
+                    <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+                     <td width=97 style='width:72.75pt;border:solid black 1.0pt;mso-border-alt:
+                     solid black .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Material</span></b><span lang=es style='font-size:10.0pt;
+                     line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=86 style='width:64.5pt;border:solid black 1.0pt;border-left:none;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Cantidad por semana</span></b><span lang=es
+                     style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border:solid black 1.0pt;border-left:none;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Unidad de cantidad</span></b><span lang=es
+                     style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=98 style='width:73.5pt;border:solid black 1.0pt;border-left:none;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Proceso</span></b><span lang=es style='font-size:10.0pt;
+                     line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border:solid black 1.0pt;border-left:none;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Precio Unitario</span></b><span lang=es style='font-size:
+                     10.0pt;line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=91 style='width:68.25pt;border:solid black 1.0pt;border-left:none;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Enlace</span></b><span lang=es style='font-size:10.0pt;
+                     line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border:solid black 1.0pt;border-left:none;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Precio total por semana</span></b><span lang=es
+                     style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border:solid black 1.0pt;border-left:none;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     class=GramE><b style='mso-bidi-font-weight:normal'><span lang=es
+                     style='font-size:10.0pt;line-height:115%'>Total</span></b></span><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'> por mes</span></b><span lang=es style='font-size:10.0pt;
+                     line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                    </tr>
+                    <tr style='mso-yfti-irow:1'>
+                     <td width=97 style='width:72.75pt;border:solid black 1.0pt;border-top:none;
+                     mso-border-top-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-top-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Cinta Antideslizante</span></b><span lang=es
+                     style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=86 style='width:64.5pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>650<o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>Pulgadas<o:p></o:p></span></p>
+                     </td>
+                     <td width=98 style='width:73.5pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>Antideslizantes<o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$1.410<o:p></o:p></span></p>
+                     </td>
+                     <td width=91 style='width:68.25pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es><a
+                     href="https://www.amazon.com/-/es/Almohadillas-antideslizantes-protectores-autoadhesivos-resistentes/dp/B09VC2R2FX?th=1"><span
+                     style='font-size:10.0pt;line-height:115%;color:#1155CC'>https://acortar.link/tK0sxx</span></a></span><span
+                     lang=es style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$915.945<o:p></o:p></span></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$3.663.780<o:p></o:p></span></p>
+                     </td>
+                    </tr>
+                    <tr style='mso-yfti-irow:2'>
+                     <td width=97 style='width:72.75pt;border:solid black 1.0pt;border-top:none;
+                     mso-border-top-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-top-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Pintura <span class=SpellE>Electrostatica</span> En Polvo</span></b><span
+                     lang=es style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=86 style='width:64.5pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>65,4185022<o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>Lb<o:p></o:p></span></p>
+                     </td>
+                     <td width=98 style='width:73.5pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>pintura<o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>60000<o:p></o:p></span></p>
+                     </td>
+                     <td width=91 style='width:68.25pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es><a href="https://acortar.link/YZ6fdP"><span style='font-size:10.0pt;
+                     line-height:115%;color:#1155CC'>https://acortar.link/YZ6fdP<o:p></o:p></span></a></span></p>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><u><span
+                     lang=es style='font-size:10.0pt;line-height:115%;color:#1155CC'><a
+                     href="https://acortar.link/YZ6fdP"><span style='color:#1155CC'><o:p><span
+                      style='text-decoration:none'>&nbsp;</span></o:p></span></a></span></u></p>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><u><span
+                     lang=es style='font-size:10.0pt;line-height:115%;color:#1155CC'><o:p><span
+                      style='text-decoration:none'>&nbsp;</span></o:p></span></u></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$3.925.110<o:p></o:p></span></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$15.700.441<o:p></o:p></span></p>
+                     </td>
+                    </tr>
+                    <tr style='mso-yfti-irow:3'>
+                     <td width=97 style='width:72.75pt;border:solid black 1.0pt;border-top:none;
+                     mso-border-top-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-top-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Vinipel Industrial Transparente 50cm X 500 Metros <span
+                     class=SpellE>Stretch</span></span></b><span lang=es style='font-size:10.0pt;
+                     line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=86 style='width:64.5pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>831,6<o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>m2<o:p></o:p></span></p>
+                     </td>
+                     <td width=98 style='width:73.5pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>Embalaje<o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>180<o:p></o:p></span></p>
+                     </td>
+                     <td width=91 style='width:68.25pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es><a
+                     href="https://nanottech.mercadoshops.com.co/MCO-1653880944-vinipel-industrial-transparente-50cm-x-500-metros-stretch-_JM?gclid=Cj0KCQjwj5mpBhDJARIsAOVjBdqGECvu8nuOVHFVO1EM-Jsvd4YW5-KCTpxp44hIdLRx8qyPvxwt7boaAqsWEALw_wcB"><span
+                     style='font-size:10.0pt;line-height:115%;color:#1155CC'>https://acortar.link/aMgNvl<o:p></o:p></span></a></span></p>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><u><span
+                     lang=es style='font-size:10.0pt;line-height:115%;color:#1155CC'><o:p><span
+                      style='text-decoration:none'>&nbsp;</span></o:p></span></u></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$149.688<o:p></o:p></span></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$598.752<o:p></o:p></span></p>
+                     </td>
+                    </tr>
+                    <tr style='mso-yfti-irow:4'>
+                     <td width=97 style='width:72.75pt;border:solid black 1.0pt;border-top:none;
+                     mso-border-top-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-top-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>L�mina de acero A36 Hot <span class=SpellE>rolled</span>
+                     1/8�.<o:p></o:p></span></b></p>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>1,22*2,54</span></b><span lang=es style='font-size:10.0pt;
+                     line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=86 style='width:64.5pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>82,5<o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>Unidades<o:p></o:p></span></p>
+                     </td>
+                     <td width=98 style='width:73.5pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>L�mina<o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>275000<o:p></o:p></span></p>
+                     </td>
+                     <td width=91 style='width:68.25pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es><a href="https://acortar.link/9zMIav"><span style='font-size:10.0pt;
+                     line-height:115%;color:#1155CC'>https://acortar.link/9zMIav</span></a></span><span
+                     lang=es style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$22.687.500<o:p></o:p></span></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$90.750.000<o:p></o:p></span></p>
+                     </td>
+                    </tr>
+                    <tr style='mso-yfti-irow:5;mso-yfti-lastrow:yes'>
+                     <td width=97 style='width:72.75pt;border:solid black 1.0pt;border-top:none;
+                     mso-border-top-alt:solid #CCCCCC .75pt;mso-border-alt:solid black .75pt;
+                     mso-border-top-alt:solid #CCCCCC .75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><b
+                     style='mso-bidi-font-weight:normal'><span lang=es style='font-size:10.0pt;
+                     line-height:115%'>Mezcla acetona limpieza</span></b><span lang=es
+                     style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=86 style='width:64.5pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>82,5<o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>Litros<o:p></o:p></span></p>
+                     </td>
+                     <td width=98 style='width:73.5pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>Limpieza<o:p></o:p></span></p>
+                     </td>
+                     <td width=89 style='width:66.75pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>4150<o:p></o:p></span></p>
+                     </td>
+                     <td width=91 style='width:68.25pt;border-top:none;border-left:none;
+                     border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:
+                     solid #CCCCCC .75pt;mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:
+                     #CCCCCC;mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es><a href="https://acortar.link/ag6iHD"><span style='font-size:10.0pt;
+                     line-height:115%;color:#1155CC'>https://acortar.link/ag6iHD</span></a></span><span
+                     lang=es style='font-size:10.0pt;line-height:115%'><o:p></o:p></span></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$342.375<o:p></o:p></span></p>
+                     </td>
+                     <td width=76 style='width:57.0pt;border-top:none;border-left:none;border-bottom:
+                     solid black 1.0pt;border-right:solid black 1.0pt;mso-border-top-alt:solid #CCCCCC .75pt;
+                     mso-border-left-alt:solid #CCCCCC .75pt;mso-border-top-alt:#CCCCCC;
+                     mso-border-left-alt:#CCCCCC;mso-border-bottom-alt:black;mso-border-right-alt:
+                     black;mso-border-style-alt:solid;mso-border-width-alt:.75pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+                     <p class=MsoNormal align=center style='text-align:center;mso-pagination:none'><span
+                     lang=es style='font-size:10.0pt;line-height:115%'>$1.369.500<o:p></o:p></span></p>
+                     </td>
+                    </tr>
+                   </table>
+
+
+
+
+
+
             </div>
 
-            <div class="col-lg-9">
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul class="list-inline shop-top-menu pb-3 pt-1">
-                            <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none mr-3" href="#">All</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Men's</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none" href="#">Women's</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 pb-4">
-                        <div class="d-flex">
-                            <select class="form-control">
-                                <option>Featured</option>
-                                <option>A to Z</option>
-                                <option>Item</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_01.jpg">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0">$250.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_02.jpg">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0">$250.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_03.jpg">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0">$250.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_04.jpg">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0">$250.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_05.jpg">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0">$250.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_06.jpg">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0">$250.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_07.jpg">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0">$250.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_08.jpg">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0">$250.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/shop_09.jpg">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.html"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.html"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.html" class="h3 text-decoration-none">Oupidatat non</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0">$250.00</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div div="row">
-                    <ul class="pagination pagination-lg justify-content-end">
-                        <li class="page-item disabled">
-                            <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0" href="#" tabindex="-1">1</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="#">2</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="#">3</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- End Content -->
-
-    <!-- Start Brands -->
-    <section class="bg-light py-5">
-        <div class="container my-4">
-            <div class="row text-center py-3">
-                <div class="col-lg-6 m-auto">
-                    <h1 class="h1">Our Brands</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                </div>
-                <div class="col-lg-9 m-auto tempaltemo-carousel">
-                    <div class="row d-flex flex-row">
-                        <!--Controls-->
-                        <div class="col-1 align-self-center">
-                            <a class="h1" href="#multi-item-example" role="button" data-bs-slide="prev">
-                                <i class="text-light fas fa-chevron-left"></i>
-                            </a>
-                        </div>
-                        <!--End Controls-->
-
-                        <!--Carousel Wrapper-->
-                        <div class="col">
-                            <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="multi-item-example" data-bs-ride="carousel">
-                                <!--Slides-->
-                                <div class="carousel-inner product-links-wap" role="listbox">
-
-                                    <!--First slide-->
-                                    <div class="carousel-item active">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End First slide-->
-
-                                    <!--Second slide-->
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Second slide-->
-
-                                    <!--Third slide-->
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Third slide-->
-
-                                </div>
-                                <!--End Slides-->
-                            </div>
-                        </div>
-                        <!--End Carousel Wrapper-->
-
-                        <!--Controls-->
-                        <div class="col-1 align-self-center">
-                            <a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">
-                                <i class="text-light fas fa-chevron-right"></i>
-                            </a>
-                        </div>
-                        <!--End Controls-->
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
-    <!--End Brands-->
 
+ 
+   
     <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
