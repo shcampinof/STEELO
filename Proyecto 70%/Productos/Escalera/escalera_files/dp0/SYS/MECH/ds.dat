@@ -2,14 +2,14 @@
 /config,noeldb,1     ! force off writing results to database
 *get,_wallstrt,active,,time,wall
 ! ANSYS input file written by Workbench version 2020 R2
-! File used for geometry attach: C:\Users\Administrador\AppData\Local\Temp\WB_ADMI_Administrador_2692_2\unsaved_project_files\dp0\SYS\DM\SYS.scdoc
+! File used for geometry attach: C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Proyecto\STEELO\Proyecto 70%\Productos\Escalera\escalera_files\dp0\SYS\DM\SYS.scdoc
 /title,escalera--Static Structural (A5)
 *DIM,_wb_ProjectScratch_dir,string,248
-_wb_ProjectScratch_dir(1) = 'C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\_ProjectScratch\Scr9044\'
+_wb_ProjectScratch_dir(1) = 'C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Proyecto\STEELO\Proyecto 70%\Productos\Escalera\_ProjectScratch\ScrA14C\'
 *DIM,_wb_SolverFiles_dir,string,248
-_wb_SolverFiles_dir(1) = 'C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\escalera_files\dp0\SYS\MECH\'
+_wb_SolverFiles_dir(1) = 'C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Proyecto\STEELO\Proyecto 70%\Productos\Escalera\escalera_files\dp0\SYS\MECH\'
 *DIM,_wb_userfiles_dir,string,248
-_wb_userfiles_dir(1) = 'C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Escalera\escalera_files\user_files\'
+_wb_userfiles_dir(1) = 'C:\Users\Administrador\OneDrive - Universidad Nacional de Colombia\Escritorio\Semestre 16\APM\Proyecto\STEELO\Proyecto 70%\Productos\Escalera\escalera_files\user_files\'
 /com,--- Data in consistent MKS units. See Solving Units in the help system for more information.
 /units,MKS
 /nopr
@@ -31875,7 +31875,7 @@ MP,MURX,1,10000,
 /wb,mat,end                !  done sending materials
 /com,*********** Send Sheet Properties ***********
 sectype,1,shell
-secdata,9.53e-003
+secdata,3.8e-003
 secoff,mid
 
 !************************* Model Summary ********************
@@ -35639,9 +35639,9 @@ rescontrol,,none                 ! Do not keep any restart files
 /com,******************* SOLVE FOR LS 1 OF 1 ****************
 esel,s,type,,2
 nsle
-sfe,all,1,pres,1,-1.52606348122809e-010
+sfe,all,1,pres,1,-1.01737565415206e-010
 sfe,all,2,pres,1,0.
-sfe,all,3,pres,1,-17241.3793103451
+sfe,all,3,pres,1,-11494.2528735634
 nsel,all
 esel,all
 /nopr

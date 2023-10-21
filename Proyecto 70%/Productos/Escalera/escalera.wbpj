@@ -2,14 +2,15 @@
 <Storage>
   <Project Version="9.1">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">3167</timestamp-max>
+    <timestamp-max valType="Int64">3519</timestamp-max>
     <framework-build-version valType="String">20.2.221.0</framework-build-version>
     <external-version-string valType="String">2020 R2</external-version-string>
-    <last-saved-utc valType="String">08/27/2023 17:28:10</last-saved-utc>
+    <last-saved-utc valType="String">10/21/2023 17:18:56</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">Administrador@ADMI:C:\Users\Administrador\AppData\Local\Temp\WorkbenchLogs\CoreEvents2692.log</ArrayEntry>
       <ArrayEntry Index="1">Administrador@ADMI:C:\Users\Administrador\AppData\Local\Temp\WorkbenchLogs\CoreEvents15452.log</ArrayEntry>
+      <ArrayEntry Index="2">Administrador@ADMI:C:\Users\Administrador\AppData\Local\Temp\WorkbenchLogs\CoreEvents30192.log</ArrayEntry>
     </logHistory>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -221,9 +222,9 @@
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2959, "Input": 2960, "Output": 1443}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 3516, "Input": 3517, "Output": 1443}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
         <class-type valType="String">DesignPoint</class-type>
         <object-name valType="String">0</object-name>
@@ -242,7 +243,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 2852, "Input": 2966, "Output": 1446}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 2852, "Input": 3171, "Output": 1446}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:SYS" Version="1.0">
@@ -347,7 +348,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 3164, "Input": 1854, "Output": 1854}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 3369, "Input": 1854, "Output": 1854}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
     </Container>
