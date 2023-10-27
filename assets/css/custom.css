@@ -1,3 +1,39 @@
 /*
 Custom Css
+
 */
+
+.logo {
+width:  50%;
+
+}
+
+.bordeimg {
+
+border-radius:22px;
+border: 3px solid green; 
+margin-bottom: 1rem;
+
+}
+
+.borde-redondo{
+    border-radius: 10%;
+}
+
+.justificado{
+    text-align: justify!important;
+}
+
+.vsm{
+    width: 160%; 
+    padding-right: 5rem;       
+
+
+    }
+    .gestionproyecto{
+        width: 90%;
+        align-items: center;
+        margin: auto;
+        padding-left: 5rem;
+       
+    }
