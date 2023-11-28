@@ -1,0 +1,174 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Historicos"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_1"
+        },
+        "position": {
+          "height": 50,
+          "width": 100,
+          "x": 20,
+          "y": 155
+        },
+        "props": {
+          "text": "Historicos"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Alarmas"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_0"
+        },
+        "position": {
+          "height": 50,
+          "width": 100,
+          "x": 20,
+          "y": 86
+        },
+        "props": {
+          "text": "Alarmas"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Main"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 50,
+          "width": 100,
+          "x": 20,
+          "y": 20
+        },
+        "props": {
+          "text": "Pantalla Principal"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "TimeSeriesChart"
+        },
+        "position": {
+          "height": 316,
+          "width": 437.00000000000006,
+          "x": 221.2,
+          "y": 191
+        },
+        "propConfig": {
+          "props.series[0].data": {
+            "binding": {
+              "config": {
+                "aggregate": "MinMax",
+                "avoidScanClassValidation": true,
+                "dateRange": {
+                  "mostRecent": "1",
+                  "mostRecentUnits": "MIN"
+                },
+                "enableValueCache": true,
+                "ignoreBadQuality": false,
+                "polling": {
+                  "enabled": true,
+                  "rate": "1"
+                },
+                "preventInterpolation": false,
+                "returnFormat": "Wide",
+                "returnSize": {
+                  "delay": "1",
+                  "delayUnits": "SEC",
+                  "type": "INTERVAL"
+                },
+                "tags": [
+                  {
+                    "path": "[Sample_SQLite_Database/ignition-pc_d_ndrm8099:default]plc/piezasp/acc"
+                  }
+                ],
+                "valueFormat": "DATASET"
+              },
+              "type": "tag-history"
+            }
+          }
+        },
+        "props": {
+          "series": [
+            {
+              "name": "Boiler"
+            }
+          ],
+          "style": {
+            "borderStyle": "solid"
+          },
+          "title": {
+            "text": "POSICIÓN ROBOT EN X",
+            "visible": true
+          }
+        },
+        "type": "ia.chart.timeseries"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 50,
+          "width": 254,
+          "x": 348,
+          "y": 97
+        },
+        "props": {
+          "text": "HISTORICO: NRO DE PIEZAS"
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#AAAAAA"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "AlarmStatusTable"
+        },
+        "position": {
+          "height": 481,
+          "width": 605,
+          "x": 187.32,
+          "y": 58
+        },
+        "type": "ia.display.alarmstatustable"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Historicos"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_1"
+        },
+        "position": {
+          "height": 50,
+          "width": 100,
+          "x": 20,
+          "y": 155
+        },
+        "props": {
+          "text": "Historicos"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Alarmas"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_0"
+        },
+        "position": {
+          "height": 50,
+          "width": 100,
+          "x": 20,
+          "y": 86
+        },
+        "props": {
+          "text": "Alarmas"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Main"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 50,
+          "width": 100,
+          "x": 20,
+          "y": 20
+        },
+        "props": {
+          "text": "Pantalla Principal"
+        },
+        "type": "ia.input.button"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "position": {
+      "x": 70,
+      "y": -8
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#AAAAAA"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}

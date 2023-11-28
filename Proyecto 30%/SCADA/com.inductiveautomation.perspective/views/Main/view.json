@@ -1,0 +1,378 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {
+    "defaultSize": {
+      "height": 492,
+      "width": 990
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\n\timport time\n\tsystem.tag.write(\"[default]PLC/SCADA_START_BANDA\",1)\n\ttime.sleep(1)\n\tsystem.tag.write(\"[default]PLC/SCADA_START_BANDA\",0)"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Inicio Banda"
+        },
+        "position": {
+          "height": 40,
+          "width": 93.94999999999999,
+          "x": 364.415,
+          "y": 45
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#00D900"
+          },
+          "text": "Inicio Banda"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\n\timport time\n\tsystem.tag.write(\"[default]PLC/SCADA_STOP_BANDA\",1)\n\ttime.sleep(1)\n\tsystem.tag.write(\"[default]PLC/SCADA_STOP_BANDA\",0)\n"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Parada Banda"
+        },
+        "position": {
+          "height": 40,
+          "width": 93.94999999999999,
+          "x": 364.415,
+          "y": 111
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#FF0000"
+          },
+          "text": "Parada Banda"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\tsystem.tag.write(\"[default]Robot/DO_01\",0)"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Parada Banda_0"
+        },
+        "position": {
+          "height": 40,
+          "width": 93.94999999999999,
+          "x": 478.696,
+          "y": 111
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#FF0000"
+          },
+          "text": "Parada Robot"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\t\n\t\tsystem.tag.write(\"[default]Robot/DO_01\",1)\n "
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Inicio Banda_0"
+        },
+        "position": {
+          "height": 40,
+          "width": 93.94999999999999,
+          "x": 478.696,
+          "y": 45
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#00D900"
+          },
+          "text": "Inicio Robot"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Historicos"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_1"
+        },
+        "position": {
+          "height": 50,
+          "width": 100,
+          "x": 20,
+          "y": 155
+        },
+        "props": {
+          "text": "Historicos"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Alarmas"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button_0"
+        },
+        "position": {
+          "height": 50,
+          "width": 100,
+          "x": 20,
+          "y": 86
+        },
+        "props": {
+          "text": "Alarmas"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "params": {},
+                "view": "Main"
+              },
+              "scope": "C",
+              "type": "nav"
+            }
+          }
+        },
+        "meta": {
+          "name": "Button"
+        },
+        "position": {
+          "height": 50,
+          "width": 100,
+          "x": 20,
+          "y": 20
+        },
+        "props": {
+          "text": "Pantalla Principal"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\timport time\n\tsystem.tag.write(\"[default]PLC/RESET_LOTE\",1)\n\ttime.sleep(1)\n\tsystem.tag.write(\"[default]PLC/RESET_LOTE\",0)"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Inicio Banda_1"
+        },
+        "position": {
+          "height": 60,
+          "width": 93.94999999999999,
+          "x": 232.8205,
+          "y": 104
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#D9D800"
+          },
+          "text": "RESET LOTE DE PIEZAS"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "events": {
+          "dom": {
+            "onClick": {
+              "config": {
+                "script": "\timport time\n\tsystem.tag.write(\"[default]PLC/SENSOR_PIEZA\",1)\n\ttime.sleep(1)\n\tsystem.tag.write(\"[default]PLC/SENSOR_PIEZA\",0)"
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "Inicio Banda_2"
+        },
+        "position": {
+          "height": 40,
+          "width": 93.94999999999999,
+          "x": 232.5075,
+          "y": 45
+        },
+        "props": {
+          "style": {
+            "backgroundColor": "#D9D800"
+          },
+          "text": "SENSOR PIEZA"
+        },
+        "type": "ia.input.button"
+      },
+      {
+        "meta": {
+          "name": "Motor"
+        },
+        "position": {
+          "height": 100,
+          "width": 100,
+          "x": 361.387508392334,
+          "y": 201
+        },
+        "propConfig": {
+          "props.style.fill": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]PLC/BANDA"
+              },
+              "transforms": [
+                {
+                  "fallback": "#000000",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "#00FF00"
+                    },
+                    {
+                      "input": false,
+                      "output": "#AAAAAA"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "value": {
+            "text": ""
+          }
+        },
+        "type": "ia.symbol.motor"
+      },
+      {
+        "meta": {
+          "name": "Motor_0"
+        },
+        "position": {
+          "height": 100,
+          "rotate": {
+            "anchor": "0% 0%"
+          },
+          "width": 100,
+          "x": 492,
+          "y": 196
+        },
+        "propConfig": {
+          "props.style.fill": {
+            "binding": {
+              "config": {
+                "fallbackDelay": 2.5,
+                "mode": "direct",
+                "tagPath": "[default]Robot/DO_01"
+              },
+              "transforms": [
+                {
+                  "fallback": "#000000",
+                  "inputType": "scalar",
+                  "mappings": [
+                    {
+                      "input": true,
+                      "output": "#00FF00"
+                    },
+                    {
+                      "input": false,
+                      "output": "#AAAAAA"
+                    }
+                  ],
+                  "outputType": "color",
+                  "type": "map"
+                }
+              ],
+              "type": "tag"
+            }
+          }
+        },
+        "props": {
+          "label": {
+            "text": "Robot"
+          },
+          "value": {
+            "text": ""
+          }
+        },
+        "type": "ia.symbol.motor"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "style": {
+        "backgroundColor": "#AAAAAA"
+      }
+    },
+    "type": "ia.container.coord"
+  }
+}
