@@ -22,6 +22,10 @@ margin-bottom: 1rem;
 
 .justificado{
     text-align: justify!important;
+    padding: 1.2rem 0 1rem 0;
+}
+.distribucion{
+    width: 40rem;
 }
 
 .vsm{
@@ -37,3 +41,5 @@ margin-bottom: 1rem;
         padding-left: 5rem;
        
     }
+
+
