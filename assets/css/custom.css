@@ -28,6 +28,7 @@ margin-bottom: 1rem;
     width: 40rem;
 }
 
+
 .vsm{
     width: 160%; 
     padding-right: 5rem;       
@@ -40,6 +41,11 @@ margin-bottom: 1rem;
         margin: auto;
         padding-left: 5rem;
        
+    }
+    .grafcet_g{
+        width: 100%;
+        align-items: center;
+        margin: auto;
     }
 
 
