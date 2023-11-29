@@ -118,7 +118,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="automatizacion.html"
-                  >AUTOMATIZACIÓN (INDUSTRIA 4.0)</a
+                  >AUTOMATIZACIÓN E INDUSTRIA 4.0</a
                 >
               </li>
               <li class="nav-item">
@@ -129,6 +129,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="digitalfactory.html"
                   >DIGITAL FACTORY</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#miniproyecto"
+                  >MINIPROYECTO</a
                 >
               </li>
             </ul>
@@ -155,6 +160,34 @@
             principales, cada uno de los cuales se vincula a un registro en la
             Interfaz Humano-Máquina (HMI). Junto a los controles de cada
             proceso, se encuentra un botón de inicio de color verde.
+          </p>
+          <p class="justificado">
+            Para lograr la conexión con el SCADA y Studio 5000 se crearon una
+            serie de señales que permiten coordinar el movimiento de las físicas
+            de Siemens NX con el proceso de producción de la planta que se
+            encuentra modelado en Studio 5000. A continuación se observan dichas
+            señales, y además se puede evidenciar el mapeo de estas señales con
+            las provenientes del SCADA y Studio 5000 a partir de un servidor
+            OPC.
+          </p>
+
+          <img
+            class="img-fluid"
+            src="assets/img/SignalsNX.png"
+            alt="SignalsNX"
+          />
+
+          <p class="justificado">
+            A continuación se describe el proceso de accionamiento de mando en
+            el SCADA y su respectiva funcionalidad en NX. Para ello es
+            importante resaltar que a través del SCADA se generan señales que se
+            integran a la lógica ladder y a partir de ella se generan los
+            accionamientos para las interacciones con el gemelo digital tanto en
+            NX como en RobotStudio. Esto permite tener un control sobre todo el
+            proceso y simular los diferentes estados durante el proceso de
+            producción.
+          </p>
+          <p class="justificado">
             Inicialmente, se encuentra el proceso de lavado. Al presionar el
             botón de inicio para el lavado, se refleja en el HMI el estado
             operativo, con espacios designados para los estados de mantenimiento
@@ -174,12 +207,11 @@
             Se indica el estado en el que se encuentra, y durante la operación,
             se evidencian movimientos relacionados con el estiramiento y
             recogida de los cilindros que soportan la parte metálica encargada
-            del doblez.
-            Lo mismo ocurre con el proceso de pulido, donde una pulidora en
-            reposo sobre una estantería presenta estados de operación,
-            mantenimiento y detención. En NX, se representa mediante un CAD de
-            la pulidora, con la parte interna de la lija moviéndose de manera
-            rotacional.
+            del doblez. Lo mismo ocurre con el proceso de pulido, donde una
+            pulidora en reposo sobre una estantería presenta estados de
+            operación, mantenimiento y detención. En NX, se representa mediante
+            un CAD de la pulidora, con la parte interna de la lija moviéndose de
+            manera rotacional.
           </p>
           <p class="justificado">
             Tras el pulido, se procede al proceso de pintura, detallado en
@@ -192,26 +224,33 @@
             Luego, se continúa con los procesos de detalles y embalaje,
             comenzando con el de adhesivos. Al igual que los anteriores,
             presenta estados respectivos y se apoya en rodillos de transporte
-            libres que pasan frente a ellos.
-            Después de la fase de adhesivos, el producto se mueve hacia la base
-            del proceso de embalaje. Este proceso, al igual que los demás,
-            cuenta con sus estados y una representación gráfica en NX.
+            libres que pasan frente a ellos. Después de la fase de adhesivos, el
+            producto se mueve hacia la base del proceso de embalaje. Este
+            proceso, al igual que los demás, cuenta con sus estados y una
+            representación gráfica en NX.
           </p>
           <p class="justificado">
             Finalmente, al concluir el embalaje, el producto sigue su
             trayectoria en el sistema de transporte manual hasta llegar al
             proceso de calidad. En NX, se observa como el paso final antes de
             llegar a la zona de inventarios, donde ya se encuentran productos
-            listos.
-            Adicionalmente, en la HMI se incorporan botones para acceder a
-            cuatro pestañas: supervisión, control, históricos y alarmas,
+            listos. Adicionalmente, en la HMI se incorporan botones para acceder
+            a cuatro pestañas: supervisión, control, históricos y alarmas,
             relacionadas con el proyecto y reflejadas en la HMI. Se presenta,
             además, un conteo constante de unidades producidas y tiempos de
             operación durante el proceso de automatización.
           </p>
 
           <div class="container-fluid py-5">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/22JGE2fC-DU?si=sVaW56dpk8hg_63W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/22JGE2fC-DU?si=sVaW56dpk8hg_63W"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>
