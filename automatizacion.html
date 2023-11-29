@@ -111,7 +111,7 @@
           la definición tecnológica de los elementos asociados a cada etapa y
           transición como se puede ver a continuación.
         </p>
-        <div class="container-fluid py-5">
+        <div class="container-fluid pb-3">
           <img class="img-fluid" src="assets/img/GRAFCET2.png" alt="GRAFCET2" />
         </div>
         <p class="justificado">
@@ -207,6 +207,17 @@
           <div class="container-fluid py-5">
             <img class="img-fluid" src="assets/img/SCADAsupervision.png" alt="SCADA" />
           </div>
+          <h3 class="h3">Vistas Estaciones</h3>
+          <p class="justificado">
+            En esta vistas como ya se mencionó se puede observar un mimíco asociado a algun actuador, sensor o actividad asociada a la estación,
+            también se muestra un contador de piezas (con un historico asociado) y un tiempo de proceso, además de el estado de la counicación de la estación y el estado de operación (Detenido, Operando o en Mantenimiento), acontinuación se muestan dos de las vistas de las estaciones que se pueden acceder desde el panel de supervisión.
+          </p>
+          <div class="container-fluid py-5">
+            <img class="img-fluid" src="assets/img/SCADAcorte.png" alt="SCADA" />
+          </div>
+          <div class="container-fluid py-5">
+            <img class="img-fluid" src="assets/img/SCADAcalidad.png" alt="SCADA" />
+          </div>
           <h3 class="h3">Control</h3>
           <p class="justificado">
             En esta vista se puede manipular o controlar la planta automatizada,
@@ -269,34 +280,36 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
 
-          <h1 class="h1 py-3">
-            Diagrama de comunicaciones y pirámide de comunicación
-          </h1>
-          <p class="justificado">
-            La arquitectura implementada y el diagrama de comunicaciones para el
-            desarrollo del proyecto, este está basado en la pirámide de la
-            automatización.
-          </p>
-          <p class="justificado">
-            En el primer nivel o nivel de planta (Sensores y Actuadores) se
-            implementará el módulo Mechatronics Concept Designer de Siemens NX
-            para los procesos a automatizar en el proceso de producción de los
-            productos de chapa metálica, Adicionalmente, se hará el uso de
-            RobotStudio de ABB con el objetivo de simular la celda robotizada.
-          </p>
-          <p class="justificado">
-            En el nivel de Control se tendrá la simulación de un PLC en el
-            entorno de Studio5000, de Rockwell Automation.
-          </p>
-          <p class="justificado">
-            Para el nivel SCADA o de supervisión se utilizará el Ignition de
-            Inductive Automation, actuando como intermediario de comunicaciones
-            por medio del protocolo OPC. Adicionalmente, se diseñará la interfaz
-            gráfica usando el mismo.
-          </p>
-          <div class="container-fluid py-5">
-            <img class="img-fluid" src="assets/img/diagramacomunicaciones.png" alt="comunicaciones" />
-          </div>
+            <h1 class="h1 py-3">
+              Diagrama de comunicaciones y pirámide de comunicación
+            </h1>
+            <p class="justificado">
+              La arquitectura implementada y el diagrama de comunicaciones para el
+              desarrollo del proyecto, este está basado en la pirámide de la
+              automatización.
+            </p>
+            <p class="justificado">
+              En el primer nivel o nivel de planta (Sensores y Actuadores) se
+              implementará el módulo Mechatronics Concept Designer de Siemens NX
+              para los procesos a automatizar en el proceso de producción de los
+              productos de chapa metálica, Adicionalmente, se hará el uso de
+              RobotStudio de ABB con el objetivo de simular la celda robotizada.
+            </p>
+            <p class="justificado">
+              En el nivel de Control se tendrá la simulación de un PLC en el
+              entorno de Studio5000, de Rockwell Automation.
+            </p>
+            <p class="justificado">
+              Para el nivel SCADA o de supervisión se utilizará el Ignition de
+              Inductive Automation, actuando como intermediario de comunicaciones
+              por medio del protocolo OPC. Adicionalmente, se diseñará la interfaz
+              gráfica usando el mismo.
+            </p>
+            <div class="container-fluid py-5">
+              <img class="img-fluid" src="assets/img/diagramacomunicaciones.png" alt="comunicaciones" />
+            </div>
+  
+
       </div>
     </div>
   </section>
